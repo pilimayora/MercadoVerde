@@ -1,0 +1,17 @@
+.main_error {
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+.main_error .warn {
+    background: url("../../../../img/admin/icon-attention.png") no-repeat scroll 6px 6px #FFBABA;
+    border: 1px solid #9E6014;
+    border-radius: 3px 3px 3px 3px;
+    color: #D8000C;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0 0 10px;
+    min-height: 28px;
+    padding: 13px 5px 5px 40px
+}

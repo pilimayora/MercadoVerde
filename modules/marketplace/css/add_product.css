@@ -1,0 +1,60 @@
+#error
+{
+display:none;
+color:red;
+font-weight:bold;
+}
+
+
+
+#product_name_error
+{
+display:none;
+color:red;
+margin-left: 170px;
+margin-top: 2px;
+}
+.account_input
+{
+width:45%;
+height:22px;
+}
+#product_description_error,#short_description_error
+{
+display:none;
+color:red;
+margin-left: 190px;
+margin-top: 2px;
+}
+#add_img
+{
+margin-left:20px;
+}
+#product_price_error
+{
+display:none;
+color:red;
+margin-left: 190px;
+margin-top: 2px;
+}
+
+#product_quantity_error
+{
+display:none;
+color:red;
+margin-left: 190px;
+margin-top: 2px;
+}
+
+#product_category
+{
+height:25px;
+color:#000;
+}
+#otherimages
+{
+margin-left:165px;
+}
+
+#SubmitProduct
+{margin:25px 0;}

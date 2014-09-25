@@ -1,0 +1,164 @@
+p,span
+{
+padding:0;
+margin:0;
+}
+#left_column
+{
+display:none;
+}
+textarea
+{
+padding:15px;
+font-size:13px;
+}
+#info{
+width:50%;
+border-right:1px solid #FFFFFF;
+
+width:47%;
+float:left;
+float:left;
+height:100%;
+}
+#info_desc{
+width:49%;
+padding-left:15px;
+border-left:1px solid #CCCCCC;
+float:left;
+height:100%;
+
+}
+
+.view_enq
+{
+margin-top:8px;
+height:150px;
+width:100%;
+width:96%;
+padding:10px;
+border:1px solid #CCCED7;
+background-color:#EBEDF4;
+}
+.head,#info_desc span,#nego_data span
+{
+font-size: 13px;
+font-weight: bold;
+margin-right: 20px;
+margin-top: 5px;
+}
+#reply
+{
+height: 30px;
+float:left;
+margin-top: 45px;
+width: 85px;
+font-weight:bold;
+font-size:12px;
+
+}
+
+input[type="button"]:hover
+{
+cursor:pointer;
+}
+#status
+{
+width:120px;
+height:20px;
+margin-top:15px;
+margin-left:3px;
+font-size:13px;
+float:left;
+}
+#result_text
+{
+color: green;
+float: right;
+font-size: 13px;
+font-weight: bold;
+margin-left: 35px;
+margin-right: 35px;
+margin-top: 55px;
+
+}
+#negotiate
+{
+width:115px;}
+#negotiate_div
+{
+width:100%;
+float:left;
+}
+#send_mail
+{
+margin-top:5px;
+background-color: #EBEDF4;
+border: 1px solid #CCCED7;
+float: left;
+padding:18px;
+width:94%;
+display:none;
+margin-bottom:15px;
+}
+#send_email
+{
+width:85px;
+float:right;
+height: 30px;
+margin-left: 420px;
+margin-top: 10px;
+font-weight:bold;
+font-size:12px;
+}
+#enq_data_box
+{
+border:1px solid #CCCED7;
+}
+#nego_data
+{
+background-color: #EBEDF4;
+width:96%;
+padding:10px;
+border:1px solid #CCCED7;
+margin-top:5px;
+margin-bottom:5px;
+}
+#nego_data p
+{
+font-size:13px;
+}
+.info_part
+{
+margin-top:8px;
+}
+.info_ans
+{
+text-align:right;
+font-size:13px;
+}
+#back
+{
+
+float: right;
+font-size: 15px;
+font-weight:bold;
+margin-right: 10px;
+
+}
+#info_desc p
+{
+font-size:13px;
+}
+#center_column {
+width:757px;
+}
+#center_column h2
+{
+padding-bottom:10px!important;
+}
+#my_bulk_buy_query
+{
+font-size:18px;
+font-weight:bold;
+}

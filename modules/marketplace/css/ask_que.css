@@ -1,0 +1,119 @@
+#ask-data {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    display: none;
+    left: 50%;
+    margin: -250px 0 0 -280px;
+    outline: medium none;
+    position: fixed;
+    top: 50%;
+    width: 530px;
+    z-index: 1050;
+}
+.modal-header {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #EEEEEE;
+    border-radius: 4px 4px 0 0;
+    padding: 9px 15px;
+}
+.modal-header h3 {
+    display: inline-block;
+    font-size: 20px;
+    opacity: 0.6;
+}
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #0A263C;
+    line-height: 1.35;
+    margin: 0 0 5px;
+}
+.wk-close {
+    color: #000000;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#ask-form {
+    display: inline-block;
+    margin-top: 20px;
+}
+#ask-data .label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    padding-left: 20px;
+    text-align: left;
+    width: 80px;
+}
+#ask-form input, .group-select select, #ask-form textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    vertical-align: top;
+}
+#ask-data input {
+    height: 30px;
+    margin-bottom: 10px;
+    width: 315px;
+}
+input, select, textarea, button {
+    color: #2F2F2F;
+    font: 12px/15px Arial,Helvetica,sans-serif;
+    vertical-align: middle;
+}
+
+#ask-form textarea {
+    height: 75px;
+    width: 313px;
+}
+.modal-footer:before, .modal-footer:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.modal-footer {
+    background-color: #F5F5F5;
+    border-radius: 0 0 6px 6px;
+    border-top: 1px solid #DDDDDD;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    text-align: right;
+}
+#ask-data .error {
+    bottom: 15px;
+    display: none;
+    left: 210px;
+    position: absolute;
+}
+.error {
+    color: #DF280A;
+    font-weight: bold;
+}
+#ask-data #askbtn, #ask-data #resetbtn {
+    float: right;
+    height: 30px;
+    margin: 10px 23px 0 0;
+    width: 80px;
+}

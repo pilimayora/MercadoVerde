@@ -1,0 +1,86 @@
+.header_container {
+    float: left;
+    width: 100%;
+}
+
+.inner_wraper {
+    float: left;
+    width: 100%;
+}
+.logo1 {
+    float: left;
+    margin-left: 1.57%;
+    padding-top: 0;
+    width: 18.9%;
+}
+.header_right {
+    float: left;
+    width: 79%;
+}
+
+#lin1 {
+    background: url("../img/menu_bar_left.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 31px;
+    margin-left: 11.9%;
+    width: 3.6%;
+}
+
+
+#lin {
+    background: url("../img/menu_bar_content.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    font-family: myriad pro !important;
+    line-height: 31px;
+    width: 64%;
+}
+
+#lin2 {
+    background: url("../img/menu_bar_right.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 31px;
+    width: 9.6%;
+}
+
+.header_bar_line {
+    background: url("../img/header_bar_line.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 10px;
+    width: 100%;
+	margin-bottom:10px;
+}
+
+#lin UL {
+    float: left;
+    list-style: none outside none;
+    margin: 0 0 0 1%;
+    padding: 0;
+    width: 100%;
+}
+#lin ul li {
+    display: block;
+    float: left;
+    font-family: Myriad Pro;
+    font-size: 14.7px;
+	text-align:center;
+}
+#lin ul li a {
+	 color: #A6A983 !important;
+	
+}
+#lin ul li a :hover {
+	font-weight:bold;
+}
+
+.about_us {
+	float:left;
+	width:97%;
+	padding:1.5%;
+}
+
+.about_us_description {
+	float:left;
+	width:100%;
+	font-weight:bold;
+	font-size:15px;
+}

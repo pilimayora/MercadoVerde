@@ -1,0 +1,808 @@
+#store_info_container {
+
+    border-radius: 8px 8px 8px 8px;
+
+    float: left;
+
+    padding: 0 1.5% 1.5%;
+
+    width: 97%;
+
+}
+
+.store_container_header {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+.store_image {
+
+    float: left;
+
+    width: 73%;
+
+}
+
+.store_image img {
+
+	border:1px solid #DDDDDD;
+
+}
+
+.store_name {
+
+    float: left;
+
+    width: 27%;
+
+}
+
+.store_name h1{
+
+    float: left;
+
+	width: 52%;
+
+}
+
+.store_name a {
+
+	font-size:20px;
+
+	font-weight:bold;
+
+	color:#ED2327;
+
+	
+
+}
+
+#left_column {
+
+
+
+}
+
+#right_column {
+
+	
+
+}
+
+#center_column {
+	padding-bottom: 10px;
+	width:100% !important;
+}
+
+.store_content {
+
+    float: left;
+
+    padding-bottom: 10px;
+
+    padding-top: 10px;
+
+    width: 100%;
+
+}
+
+.store_content_left {
+
+	width:20%;
+
+	float:left;
+
+}
+
+.store_content_middle {
+
+	width:60%;
+
+	float:left;
+
+}
+
+
+
+.store_content_right {
+
+    float: left;
+
+    margin-left: 1%;
+
+    margin-right: 1%;
+
+    width: 18%;
+
+}
+
+.store_default_image {
+
+	width:100%;
+
+	float:left;
+
+}
+
+.store_default_image img {
+
+	width:100%;
+
+	height:300px;
+
+	border-radius: 10px 10px 10px 10px;
+
+}
+
+.store_left_advertise {
+
+	float:left;
+
+	width:100%;
+
+}
+
+
+
+.store_info_div {
+
+    background-color: white;
+
+    border-radius: 8px 8px 8px 8px;
+
+    float: left;
+
+    margin-top: 2%;
+
+    padding: 4% 2% 2%;
+
+    width: 96%;
+
+}
+
+.store_info_right {
+
+	background-color:#F8F7F5;
+
+	border:1px solid #C4C1BC;
+
+}
+
+.store_info_right_header {
+
+	color: #E26703;
+
+    display: block;
+
+    font: bold 12px/16px Arial,Helvetica,sans-serif;
+
+    min-height: 16px;
+
+    padding: 1px 0;
+
+    text-transform: uppercase;
+
+	text-align:center;
+
+	border-bottom:1px solid #C7C7C7;
+
+}
+
+.store_info_section {
+
+	border-bottom: 1px solid #C7C7C7;
+
+    padding: 0 5px 10px;
+
+	
+
+}
+
+.store_name_info {
+
+	float:left;
+
+	width:100%;
+
+}
+
+.store_name_info a {
+
+	font: bold 16px Helvetica Neue,Arial,Sans Serif;
+
+	padding-bottom:10px;
+
+}
+
+.contact_info_section {
+
+	border-bottom: 1px solid #C7C7C7;
+
+    padding: 0 5px 10px;
+
+}
+
+h4 {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+
+#wrapper {
+
+    border: 1px solid black;
+
+    float: left;
+
+    width: 100%;
+
+}
+
+.inner_wraper {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+.header_container {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+
+
+.logo1 {
+
+    float: left;
+
+    margin-left: 1.57%;
+
+    padding-top: 0;
+
+    width: 18.9%;
+
+}
+
+
+
+.header_right {
+
+    float: left;
+
+    width: 79%;
+
+}
+
+
+
+#lin1 {
+
+    background: url("../img/menu_bar_left.png") no-repeat scroll 0 0 transparent;
+
+    float: left;
+
+    height: 31px;
+
+    margin-left: 11.9%;
+
+    width: 3.6%;
+
+}
+
+
+
+
+
+#lin {
+
+    background: url("../img/menu_bar_content.png") repeat-x scroll 0 0 transparent;
+
+    float: left;
+
+    font-family: Arial;
+
+    line-height: 31px;
+
+    width: 64%;
+
+}
+
+
+
+#lin2 {
+
+    background: url("../img/menu_bar_right.png") no-repeat scroll 0 0 transparent;
+
+    float: left;
+
+    height: 31px;
+
+    width: 9.6%;
+
+}
+
+
+
+.header_bar_line {
+
+    background: url("../img/header_bar_line.png") repeat-x scroll 0 0 transparent;
+
+    float: left;
+
+    height: 10px;
+
+    width: 100%;
+
+}
+
+
+
+#lin UL {
+
+    float: left;
+
+    list-style: none outside none;
+
+    margin: 0 0 0 1%;
+
+    padding: 0;
+
+    width: 100%;
+
+}
+
+#lin ul li {
+
+    display: block;
+
+    float: left;
+
+    font-family: Arial;
+
+    font-size: 14.7px;
+
+	text-align:center;
+
+}
+
+#lin ul li a {
+
+	color: #A6A983; !important;
+
+	
+
+}
+
+#lin ul li a :hover {
+
+	font-weight:bold;
+
+}
+
+.store_container {
+
+	float:left;
+
+	width:100%;
+
+}
+
+.about_us {
+
+	float:left;
+
+	width:97%;
+
+	padding:1.5%;
+
+}
+
+
+
+.about_us_description {
+
+	float:left;
+
+	width:100%;
+
+	font-weight:bold;
+
+	font-size:15px;
+
+}
+
+.seller_profile_container {
+
+	float:left;
+
+	width:100%;
+
+}
+
+.seller_profile {
+
+	float:left;
+
+	width:97%;
+
+	padding:1.5%;
+
+}
+
+
+
+.seller_detail {
+
+	float:left;
+
+	width:100%;
+
+}
+
+.seller_main_row {
+
+	float:left;
+
+	width:100%;
+
+}
+
+.seller_main_row_left {
+
+	color: #666666;
+
+    float: left;
+
+    font-family: Arial;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    height: 32px;
+
+   	width:40%;
+
+}
+
+.seller_main_row_right {
+
+	color: #404040;
+
+    float: left;
+
+    font-size: 15px;
+
+    height: 32px;
+
+	width:60%;
+
+}
+
+
+
+
+
+#mcts1 {
+
+    overflow:hidden;
+
+    position:relative;
+
+    width:520px;
+
+    height:110px;
+
+    border:1px solid #ccc;
+
+}
+
+/* remove the list styles, width : item width * total items */    
+
+#mcts1 ul {
+
+    position:relative;
+
+    left:0;
+
+    top:0;
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;    
+
+    width:750px;            
+
+}
+
+/* width of the item, in this case I put 250x250x gif */
+
+#mcts1 li {
+
+    width:103px;
+
+    height:110px;    
+
+    float:left;
+
+}
+
+#mcts1 li img {
+
+    padding:5px;
+
+}
+
+/* Styling for prev and next buttons */
+
+#buttons {
+
+    padding:0 0 5px 0;    
+
+    float:right;
+
+}
+
+#buttons a {
+
+    display:block; 
+
+    width:31px; 
+
+    height:32px;
+
+    text-indent:-999em;
+
+    float:left;
+
+    outline:0;
+
+}
+
+
+
+.clear {clear:both}
+
+.best-sell-box
+
+{
+
+	border: 1px solid #CCCCCC;
+
+    border-radius: 10px 10px 10px 10px;
+
+    overflow: hidden;
+
+    padding-top: 25px;
+
+    position: relative;
+
+    width: 480px;
+
+	margin-left:15px;
+
+}
+
+.ed_left {background-position: -10px 0;left: 40%;top: 5px;}
+
+.ed_right {background-position: -36px 0;right: 40%;top: 5px;}
+
+.ed_left:hover{background-position: -10px -25px;}
+
+.ed_right:hover{background-position: -36px -25px;}
+
+.ed_nav {
+
+    background: url("../img/controls.png") no-repeat scroll 0 0 transparent;
+
+    cursor: pointer;
+
+    height: 26px;
+
+    position: absolute;
+
+    width: 26px;
+
+    z-index: 999;
+
+}
+
+.best-sell {
+
+    height: 200px;
+
+    overflow: auto;
+
+    position: relative;
+
+}
+
+.best-sell {
+
+    width: 1700px;
+
+}
+
+.best-sell-product {
+
+    float: left;
+
+    height: 180px;
+
+    margin: 10px;
+
+}
+
+a {
+
+    color: #333333;
+
+    text-decoration: none;
+
+}
+
+.best-sell-product .image img {
+
+    width: 140px;
+
+}
+
+img {
+
+    border: 0 none;
+
+    vertical-align: top;
+
+}
+
+.best-sell-product .name, .best-sell-product .price {
+
+    font-weight: 600;
+
+    text-align: center;
+
+}
+
+.best-sell-product .name, .best-sell-product .price {
+
+    font-weight: 600;
+
+    text-align: center;
+
+}
+
+.price {
+
+    white-space: nowrap !important;
+
+}
+
+.ed_right {
+
+    background-position: -36px 0;
+
+    right: 40%;
+
+    top: 5px;
+
+}
+
+.ed_nav {
+
+    background: url("../img/controls.png") no-repeat scroll 0 0 transparent;
+
+    cursor: pointer;
+
+    height: 26px;
+
+    position: absolute;
+
+    width: 26px;
+
+    z-index: 999;
+
+}
+
+.best-sell-box
+
+{
+
+	border: 1px solid #CCCCCC;
+
+    border-radius: 10px 10px 10px 10px;
+
+    overflow: hidden;
+
+    padding-top: 25px;
+
+    position: relative;
+
+    width: 480px;
+
+	margin-left:15px;
+
+}
+
+.best-sell-product .image img{width:140px;}
+
+.best-sell-product{float:left;margin:10px;height:180px;}
+
+.best-sell-product .name, .best-sell-product .price{text-align:center;font-weight: 600;}
+
+.best-sell{height:200px;overflow: auto;position: relative;}
+
+
+
+.ed_nav 
+
+{
+
+	 background: url("../img/controls.png") no-repeat scroll transparent;
+
+    cursor: pointer;
+
+    height: 26px;
+
+    position: absolute;
+
+    width: 26px;
+
+    z-index: 999;
+
+}
+
+.ed_left {background-position: -10px 0;left: 40%;top: 5px;}
+
+.ed_right {background-position: -36px 0;right: 40%;top: 5px;}
+
+.ed_left:hover{background-position: -10px -25px;}
+
+.ed_right:hover{background-position: -36px -25px;}
+
+#collection
+
+{
+
+width:540px;
+
+}
+
+#view_more
+
+{
+
+color:#0088D4;
+
+font-size:12px;
+
+float:right;
+
+font-weight:bold;
+
+
+
+}
+
+.sprighthook {
+    float: left;
+    margin-left: 8%;
+    width: 92%;
+}
+.rightcol {
+	float:left;
+	width:320px;
+}

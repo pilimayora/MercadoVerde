@@ -1,0 +1,40 @@
+.row_info {
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.row_info_left {
+		float: left;
+		font-weight: bold;
+		width: 24%;
+}
+.row_info_right {
+	float:left;
+	color:black;
+}
+.inner_form_div {
+		float: left;
+		margin-top: 10px;
+		padding: 2.5%;
+		width: 95%;
+}
+
+.page-heading h1 {
+		margin-bottom: 4px;
+		padding-bottom: 6px;
+		padding-top: 4px;
+}
+#mass_product_conform:hover {
+	cursor:pointer;
+}
+.container-massupdate {
+    background-color: #EBEDF4;
+    color: #585A69;
+    float: left;
+    padding: 10px;
+    width: 99%;
+}
+.button:hover {
+	cursor:pointer;
+}
