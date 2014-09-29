@@ -233,8 +233,19 @@ html {
   font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+/*
+* Font Avenir
+*/
+@font-face {
+  font-family: 'Avenir';
+  src: url("../font/Avenir-Book.eot?v=3.2.1");
+  src: url("../font/Avenir-Book.eot?#iefix&v=3.2.1") format("embedded-opentype"), url("../font/Avenir-Book.woff?v=3.2.1") format("woff"), url("../font/Avenir-Book.ttf?v=3.2.1") format("truetype"), url("../font/Avenir-Book.svg#avenirregular?v=3.2.1");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Avenir, Helvetica, sans-serif;
   font-size: 13px;
   line-height: 1.42857;
   color: #777777;
@@ -354,7 +365,7 @@ cite {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Avenir, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1.1; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
@@ -1615,14 +1626,14 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: normal;
   line-height: 1.42857;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 0px;
+  border-radius: 15px;
   white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -5272,22 +5283,24 @@ header {
   background: white;
   padding-bottom: 15px; }
   header .banner {
-    background: black;
+    background: #fff;
     max-height: 100%; }
     header .banner .row {
       margin: 0px; }
   header .nav {
-    background: #333333; }
+    background: #fff; }
     header .nav .row {
       margin: 0px; }
     header .nav nav {
-      width: 100%; }
+      width: 30%;
+      float: right;
+      margin-top: 15px; }
   header .row {
     position: relative; }
     header .row > .container {
       position: relative; }
     header .row #header_logo {
-      padding-top: 15px; }
+      padding-top: 10px; }
       @media (max-width: 992px) {
         header .row #header_logo {
           padding-top: 40px; } }
@@ -5306,7 +5319,7 @@ header {
 #center_column .page_product_box h3 {
   color: #555454;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: Avenir;
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
@@ -5808,7 +5821,7 @@ table.table_block td {
   white-space: nowrap; }
 
 .price.product-price {
-  font: 600 21px/26px "Open Sans", sans-serif;
+  font: 600 21px/26px "Avenir", sans-serif;
   color: #333333; }
 
 .old-price {
@@ -5824,7 +5837,7 @@ table.table_block td {
 .price-percent-reduction {
   background: #f13340;
   border: 1px solid #d02a2c;
-  font: 600 21px/24px "Open Sans", sans-serif;
+  font: 600 21px/24px "Avenir", sans-serif;
   color: white;
   padding: 0 5px 0 3px;
   display: inline-block; }
@@ -6019,7 +6032,7 @@ table.table_block td {
       #home-page-tabs > li {
         width: 100%; } }
     #home-page-tabs > li a {
-      font: 600 21px/24px "Open Sans", sans-serif;
+      font: 600 21px/24px "Avenir", sans-serif;
       color: #555454;
       text-transform: uppercase;
       border: none;
@@ -6059,7 +6072,7 @@ table.table_block td {
 
 .block .title_block,
 .block h4 {
-  font: 600 18px/22px "Open Sans", sans-serif;
+  font: 600 18px/22px "Avenir", sans-serif;
   color: #555454;
   background: #f6f6f6;
   border-top: 5px solid #333333;
@@ -6155,7 +6168,7 @@ table.table_block td {
   padding: 1px 6px; }
 
 .page-heading {
-  font: 600 18px/22px "Open Sans", sans-serif;
+  font: 600 18px/22px "Avenir", sans-serif;
   color: #555454;
   text-transform: uppercase;
   padding: 0px 0px 17px 0px;
@@ -6182,7 +6195,7 @@ table.table_block td {
     margin-bottom: 0; }
 
 .page-subheading {
-  font-family: "Open Sans", sans-serif;
+  font-family: Avenir;
   font-weight: 600;
   text-transform: uppercase;
   color: #555454;
@@ -6195,7 +6208,7 @@ table.table_block td {
 h3.page-product-heading {
   color: #555454;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: Avenir;
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
@@ -6796,7 +6809,7 @@ div.star a:hover {
       .footer-container #footer a:hover {
         color: white; }
     .footer-container #footer h4 {
-      font: 600 18px/22px "Open Sans", sans-serif;
+      font: 600 18px/22px "Avenir", sans-serif;
       color: white;
       margin: 0 0 13px 0;
       cursor: pointer; }
@@ -7049,11 +7062,11 @@ a.price_discount_delete {
 #cart_summary tfoot td.price {
   text-align: right; }
 #cart_summary tfoot td.total_price_container span {
-  font: 600 18px/22px "Open Sans", sans-serif;
+  font: 600 18px/22px "Avenir", sans-serif;
   color: #555454;
   text-transform: uppercase; }
 #cart_summary tfoot td#total_price_container {
-  font: 600 21px/25px "Open Sans", sans-serif;
+  font: 600 21px/25px "Avenir", sans-serif;
   color: #333333;
   background: white; }
 
@@ -7118,7 +7131,7 @@ a.price_discount_delete {
 .cart_voucher {
   vertical-align: top !important; }
   .cart_voucher h4 {
-    font: 600 18px/22px "Open Sans", sans-serif;
+    font: 600 18px/22px "Avenir", sans-serif;
     color: #555454;
     text-transform: uppercase;
     padding: 7px 0 10px 0; }
@@ -7536,7 +7549,7 @@ p.cheque-indent {
   opacity: 1;
   line-height: inherit;
   text-transform: none;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Avenir, Helvetica, sans-serif; }
   #instant_search_results a.close:hover {
     color: #515151; }
 
@@ -7685,12 +7698,12 @@ table.discount i {
     #pagenotfound .pagenotfound .img-404 img {
       max-width: 100%; }
   #pagenotfound .pagenotfound h1 {
-    font: 600 28px/34px "Open Sans", sans-serif;
+    font: 600 28px/34px "Avenir", sans-serif;
     color: #333333;
     text-transform: uppercase;
     margin-bottom: 7px; }
   #pagenotfound .pagenotfound p {
-    font: 600 16px/20px "Open Sans", sans-serif;
+    font: 600 16px/20px "Avenir", sans-serif;
     color: #555454;
     text-transform: uppercase;
     border-bottom: 1px solid #d6d4d4;
@@ -7872,7 +7885,7 @@ div.star.star_hover:after {
     color: #515151; }
   .fancybox-skin .fancybox-close:after {
     content: "\f057";
-    font-family: "FontAwesome"; }
+    font-family: "Avenir"; }
 
 #facebook_block,
 #cmsinfo_block {
@@ -7896,7 +7909,7 @@ div.star.star_hover:after {
 #facebook_block h4 {
   padding: 35px 0 0 0;
   margin: 0 0 12px 0;
-  font: 300 21px/25px "Open Sans", sans-serif;
+  font: 300 21px/25px "Avenir", sans-serif;
   color: #6f6d6d; }
   @media (max-width: 991px) {
     #facebook_block h4 {
@@ -7960,7 +7973,7 @@ div.star.star_hover:after {
     overflow: hidden; }
   #cmsinfo_block h3 {
     margin: 0 0 5px 0;
-    font: 300 21px/25px "Open Sans", sans-serif;
+    font: 300 21px/25px "Avenir", sans-serif;
     color: #6f6d6d; }
     @media (max-width: 1199px) {
       #cmsinfo_block h3 {

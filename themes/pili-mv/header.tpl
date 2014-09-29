@@ -70,33 +70,20 @@
 		{/if}
 		<div id="page">
 			<div class="header-container">
-				<header id="header">
-					<div class="banner">
-						<div class="container">
-							<div class="row">
-								{hook h="displayBanner"}
-							</div>
-						</div>
-					</div>
+				<header id="header">					
 					<div class="nav">
-						<div class="container">
-							<div class="row">
-								<nav>{hook h="displayNav"}</nav>
-							</div>
-						</div>
-					</div>
-					<div>
 						<div class="container">
 							<div class="row">
 								<div id="header_logo">
 									<a href="{$base_dir}" title="{$shop_name|escape:'html':'UTF-8'}">
 										<img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
 									</a>
-								</div>
-								{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
+								</div>															
+								<nav>{hook h="displayNav"}</nav>
+								{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}		
 							</div>
 						</div>
-					</div>
+					</div>					
 				</header>
 			</div>
 			<div class="columns-container">

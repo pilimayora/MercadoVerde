@@ -1,16 +1,54 @@
 .header_user_info {
   float: right;
-  border-left: 1px solid #515151;
-  border-right: 1px solid #515151; }
+  border-left: none;
+  border-right: none; }
   .header_user_info a {
-    color: white;
-    font-weight: bold;
+    color: #323233;
+    font-weight: normal;
     display: block;
-    padding: 8px 9px 11px 8px;
+    padding: 4px 4px 11px 8px;
     cursor: pointer;
-    line-height: 18px; }
+    line-height: 18px; 
+    float: left; }
     @media (max-width: 479px) {
       .header_user_info a {
         font-size: 11px; } }
     .header_user_info a:hover, .header_user_info a.active {
-      background: #2b2b2b; }
+      background: #fff; }
+
+.customer_welcome {
+  float: left;
+  padding: 10px 3px;
+}
+.customer_prof_pic {
+  background: url('../../../img/logos/no-photo.png');
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  float: left;
+  margin: 0px 3px;
+  position: relative;
+}
+
+.customer_notifications {
+    background: url('../../../img/logos/logo-notificacion-off.png') center no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin: 2px 0px;
+  }
+  .customer_notifications:hover {
+    background: url('../../../img/logos/logo-notificacion-on.png') center no-repeat;  
+  }
+
+.customer_messages {
+    background: url('../../../img/logos/logo-mensaje-off.png') center no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin: 2px 0px; }   
+  .customer_messages:hover {
+      background: url('../../../img/logos/logo-mensaje-on.png') center no-repeat; } 
