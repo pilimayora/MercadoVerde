@@ -684,6 +684,10 @@ header .row #header_logo,
 .col-xs-12 {
   width: 100%; }
 
+.col-xs-12 h4, .col-xs-12 h4 a {
+  color: #5FDD9B !important;
+  text-transform: uppercase; }  
+
 @media (min-width: 768px) {
   .container {
     max-width: 750px; }
@@ -6789,16 +6793,18 @@ div.star a:hover {
     width: 20px; }
 
 .footer-container {
-  background-color: #333333; }
+  background-color: #323233; }
   @media (min-width: 768px) {
     .footer-container {
-      background: url(../img/footer-bg.png) repeat-x #333333; } }
+       } }
   .footer-container .container {
     padding-bottom: 100px; }
   .footer-container #footer {
     color: #777777; }
     .footer-container #footer .row {
-      position: relative; }
+      position: relative;
+      background-color: #3F4042;
+      margin-top: 10px; }
     .footer-container #footer .footer-block {
       margin-top: 45px; }
       @media (max-width: 767px) {
@@ -6809,8 +6815,7 @@ div.star a:hover {
       .footer-container #footer a:hover {
         color: white; }
     .footer-container #footer h4 {
-      font: 600 18px/22px "Avenir", sans-serif;
-      color: white;
+      font: 18px/22px "Avenir", sans-serif;      
       margin: 0 0 13px 0;
       cursor: pointer; }
       @media (max-width: 767px) {
@@ -6826,9 +6831,7 @@ div.star a:hover {
             right: 0;
             top: 1px; }
           .footer-container #footer h4.active:after {
-            content: "\f056"; } }
-      .footer-container #footer h4 a {
-        color: white; }
+            content: "\f056"; } }      
     .footer-container #footer ul li {
       padding-bottom: 8px; }
       .footer-container #footer ul li a {
@@ -6840,14 +6843,19 @@ div.star a:hover {
         .footer-container #footer #block_contact_infos {
           border: none; } }
       .footer-container #footer #block_contact_infos > div {
-        padding: 0 0 0 5px; }
+        padding: 0 20px 0 5px; }
         @media (max-width: 767px) {
           .footer-container #footer #block_contact_infos > div {
             padding-left: 0; } }
+            .footer-container #footer #block_contact_infos > div ul {
+              clear: both;
+              float: right;
+              margin-top: 20px;  
+            }
         .footer-container #footer #block_contact_infos > div ul li {
-          padding: 0 0 7px 4px;
+          padding: 0 0 0px 4px;
           overflow: hidden;
-          line-height: 30px; }
+          text-align: right; }
           .footer-container #footer #block_contact_infos > div ul li > span,
           .footer-container #footer #block_contact_infos > div ul li > span a {
             color: white;
@@ -6863,7 +6871,7 @@ div.star a:hover {
       clear: left; }
     .footer-container #footer #social_block {
       float: left;
-      width: 50%;
+      width: 40%;
       padding: 22px 15px 0 15px; }
       @media (max-width: 767px) {
         .footer-container #footer #social_block {

@@ -6,7 +6,7 @@
 		</a> -->
 	{else}
 		<a class="login" href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" rel="nofollow" title="{l s='Log in to your customer account' mod='blockuserinfo'}">
-			{l s='Sign in' mod='blockuserinfo'}
+			{l s='Ingresar / Registrate' mod='blockuserinfo'}
 		</a>
 	{/if}
 </div>
@@ -14,8 +14,8 @@
 	<div class="header_user_info">
 		<a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow">
 			<span class="customer_welcome">Hola {$cookie->customer_firstname}!</span>
-			<span class="customer_prof_pic"></span>
 		</a>
+		<span class="customer_prof_pic"></span>
 		<span class="customer_notifications"><a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow"></a></span>
 		<span class="customer_messages"><a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow"></a></span>
 	</div>

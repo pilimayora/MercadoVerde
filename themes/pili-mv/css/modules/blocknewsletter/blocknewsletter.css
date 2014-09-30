@@ -21,7 +21,7 @@
 /* Block newsletter footer */
 #footer #newsletter_block_left {
   overflow: hidden;
-  width: 50%;
+  width: 60%;
   float: left;
   padding: 13px 15px 7px 15px;
   margin-bottom: 0; }
@@ -57,17 +57,15 @@
         -moz-box-shadow: black 0px 0px 0px;
         box-shadow: black 0px 0px 0px; }
     #footer #newsletter_block_left .form-group .button-small {
-      margin-left: -43px;
+      margin-left: 0px;
       border: none;
       background: none;
       text-align: center;
       color: #908f8f;
-      padding: 8px; }
+      padding: 8px;
+      float: left; }
       #footer #newsletter_block_left .form-group .button-small:before {
-        content: "\f138";
-        font-family: "FontAwesome";
-        font-size: 28px;
-        line-height: 28px; }
+        content: url('../../../img/logos/logo-sobre-newsletter.png'); }
       #footer #newsletter_block_left .form-group .button-small:hover {
         color: white !important; }
       #footer #newsletter_block_left .form-group .button-small span {
