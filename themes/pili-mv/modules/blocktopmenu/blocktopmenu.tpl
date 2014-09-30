@@ -20,3 +20,15 @@
 	</div>
 	<!--/ Menu -->
 {/if}
+<div class="sellos">
+	<ul class="lista-sellos">
+		<li class="sello-energia" title="Energía"></li>
+		<li class="sello-reciclaje" title="Reciclaje"></li>
+		<li class="sello-salud" title="Salud"></li>
+		<li class="sello-educacion" title="Educación"></li>
+		<li class="sello-reutilizacion" title="Reutilización"></li>
+		<li class="sello-organico" title="Orgánico"></li>
+		<li class="sello-agua" title="Agua"></li>
+		<li class="sello-aire" title="Aire"></li>
+	</ul>	
+</div>

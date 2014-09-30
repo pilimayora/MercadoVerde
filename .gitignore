@@ -3,4 +3,5 @@ CONTRIBUTORS.md
 cache/
 config/
 log/
-
+*/.DS_Store
+.DS_Store

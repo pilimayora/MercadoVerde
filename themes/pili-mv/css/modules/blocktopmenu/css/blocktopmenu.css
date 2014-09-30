@@ -1,2 +1,51 @@
-#block_top_menu {
-  padding-top: 25px; }
+#block_top_menu, div.sellos {
+  padding-top: 10px; }
+
+div.sellos {
+	width: 30%;
+	float: left;	
+}
+
+ul.lista-sellos {
+	display: block;
+}
+
+ul.lista-sellos li {
+	display: block;	
+	height: 36px;
+	width: 36px;
+	float: left;
+	margin: 0px 3px;
+}
+
+.sello-energia {
+	background: url("../../../../img/sellos/sello-energia36px.png") center no-repeat;
+}
+
+.sello-reciclaje {
+	background: url("../../../../img/sellos/sello-reciclaje36px.png") center no-repeat;
+}
+
+.sello-salud {
+	background: url("../../../../img/sellos/sello-salud36px.png") center no-repeat;
+}
+
+.sello-educacion {
+	background: url("../../../../img/sellos/sello-educacion36px.png") center no-repeat;
+}
+
+.sello-reutilizacion {
+	background: url("../../../../img/sellos/sello-reutilizacion36px.png") center no-repeat;
+}
+
+.sello-organico {
+	background: url("../../../../img/sellos/sello-organico36px.png") center no-repeat;
+}
+
+.sello-agua {
+	background: url("../../../../img/sellos/sello-agua36px.png") center no-repeat;
+}
+
+.sello-aire {
+	background: url("../../../../img/sellos/sello-aire36px.png") center no-repeat;
+}
