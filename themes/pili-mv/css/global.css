@@ -6804,19 +6804,20 @@ div.star a:hover {
     .footer-container #footer .row {
       position: relative;
       background-color: #3F4042;
-      margin-top: 10px; }
+      margin-top: 10px;
+      padding-bottom: 10px; }
     .footer-container #footer .footer-block {
-      margin-top: 45px; }
+      margin-top: 20px; }
       @media (max-width: 767px) {
         .footer-container #footer .footer-block {
           margin-top: 20px; } }
     .footer-container #footer a {
-      color: #777777; }
+      color: #7c7c7c; }
       .footer-container #footer a:hover {
         color: white; }
     .footer-container #footer h4 {
       font: 18px/22px "Avenir", sans-serif;      
-      margin: 0 0 13px 0;
+      margin: 0 0 6px 0;
       cursor: pointer; }
       @media (max-width: 767px) {
         .footer-container #footer h4 {
@@ -6833,12 +6834,14 @@ div.star a:hover {
           .footer-container #footer h4.active:after {
             content: "\f056"; } }      
     .footer-container #footer ul li {
-      padding-bottom: 8px; }
+      padding-bottom: 1px; }
       .footer-container #footer ul li a {
-        font-weight: bold;
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4); }
+        font-weight: normal; }
     .footer-container #footer #block_contact_infos {
-      border-left: 1px solid #515151; }
+      border-left: 1px solid #515151;
+      float: right;
+      padding-top: 20px;
+      margin-top: 0px; }
       @media (max-width: 767px) {
         .footer-container #footer #block_contact_infos {
           border: none; } }
@@ -6870,23 +6873,27 @@ div.star a:hover {
     .footer-container #footer .blockcategories_footer {
       clear: left; }
     .footer-container #footer #social_block {
-      float: left;
-      width: 40%;
-      padding: 22px 15px 0 15px; }
+      float: right;
+      width: 33.3333%;
+      padding: 0px 15px 0 0px;
+      border-left: 1px solid #515151;
+      margin-top: 25px; }
       @media (max-width: 767px) {
         .footer-container #footer #social_block {
           width: 100%;
           float: left;
           padding-top: 5px; } }
       .footer-container #footer #social_block ul {
-        float: right; }
+        float: right;
+        padding-right: 20px; }
         @media (max-width: 767px) {
           .footer-container #footer #social_block ul {
             float: none; } }
         .footer-container #footer #social_block ul li {
           float: left;
-          width: 40px;
-          text-align: center; }
+          width: 22px;
+          text-align: center;
+          margin: 0px 4px; }
           @media (min-width: 768px) and (max-width: 991px) {
             .footer-container #footer #social_block ul li {
               width: 30px; } }
@@ -6909,21 +6916,27 @@ div.star a:hover {
             .footer-container #footer #social_block ul li a:hover {
               color: white; }
           .footer-container #footer #social_block ul li.facebook a:before {
-            content: "\f09a"; }
+            content: url('../img/logos/logo-facebook-foot.png') center no-repeat; }
           .footer-container #footer #social_block ul li.twitter a:before {
-            content: "\f099"; }
+            content: url('../img/logos/logo-twitter-foot.png') center no-repeat; }
           .footer-container #footer #social_block ul li.rss a:before {
             content: "\f09e"; }
           .footer-container #footer #social_block ul li.youtube a:before {
-            content: "\f167"; }
+            content: url('../img/logos/logo-youtube-foot.png') center no-repeat; }
           .footer-container #footer #social_block ul li.google-plus a:before {
             content: "\f0d5"; }
           .footer-container #footer #social_block ul li.pinterest a:before {
             content: "\f0d2"; }
+          .footer-container #footer #social_block ul li.email {
+            content: url('../img/logos/logo-mail-foot.png') center no-repeat;
+            display: block;
+            width: 22px;
+            height: 22px; 
+            margin-top: 2px; } 
       .footer-container #footer #social_block h4 {
         float: right;
         margin-bottom: 0;
-        font-size: 21px;
+        font-size: 14px;
         line-height: 25px;
         text-transform: none;
         padding: 0 10px 0 0; }
