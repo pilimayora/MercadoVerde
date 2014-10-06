@@ -30,7 +30,8 @@
 
 .sf-menu ul li {
   width: 100%;
-  padding: 10px 10px 10px 15px; }
+  padding: 10px 10px 10px 15px;
+  position: relative; }
 
 .sf-menu li:hover {
   visibility: inherit;
@@ -39,7 +40,8 @@
 .sf-menu > li {
   float: left;
   border-right: none;
-  margin-bottom: -3px; }
+  margin-bottom: -3px;
+  position: relative; }
   @media (max-width: 767px) {
     .sf-menu > li {
       float: none;
@@ -153,7 +155,7 @@ ul.sf-menu li li li.sfHover ul {
 
 .sf-menu > li > ul {
   padding: 15px 0px 15px;
-  width: auto;
+  width: 250px;
   background-color: #464F4F;
   border-radius: 6px;
   float: left; }
