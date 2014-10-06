@@ -146,33 +146,45 @@ span.triangle-sellos {
 	bottom: 40px;
 	z-index: 99;
 	position: absolute;
-	border-left: 55px solid transparent;
-	border-right: 55px solid transparent;
-	border-bottom: 40px solid;
+	padding-left: 50%;
+	padding-bottom: 50%;
+	overflow: hidden;	
 }
 
-ul.descripcion-sellos li.energia span {
+span.triangle-sellos:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: -400px;
+	border-left: 400px solid transparent;
+	border-right: 400px solid transparent;
+	border-bottom: 300px solid;
+	margin-top: 12px;
+}
+
+ul.descripcion-sellos li.energia span:after {
 	border-bottom-color: #FFF38D;
 }
-ul.descripcion-sellos li.reciclaje span {
+ul.descripcion-sellos li.reciclaje span:after {
 	border-bottom-color: #B8D98D;
 }
-ul.descripcion-sellos li.salud span {
+ul.descripcion-sellos li.salud span:after {
 	border-bottom-color: #EF7C86;
 }
-ul.descripcion-sellos li.educacion span {
+ul.descripcion-sellos li.educacion span:after {
 	border-bottom-color: #9595CE;
 }
-ul.descripcion-sellos li.reutilizacion span {
+ul.descripcion-sellos li.reutilizacion span:after {
 	border-bottom-color: #F9A65C;
 }
-ul.descripcion-sellos li.organico span {
+ul.descripcion-sellos li.organico span:after {
 	border-bottom-color: #AF8C74;
 }
-ul.descripcion-sellos li.agua span {
+ul.descripcion-sellos li.agua span:after {
 	border-bottom-color: #9AD5DB;
 }
-ul.descripcion-sellos li.aire span {
+ul.descripcion-sellos li.aire span:after {
 	border-bottom-color: #D8D8D8;
 }
 
