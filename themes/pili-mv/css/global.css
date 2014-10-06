@@ -5267,10 +5267,13 @@ textarea {
   resize: none; }
 
 #header {
-  z-index: 5003; }
+  z-index: 5003;
+  -webkit-box-shadow: 0 8px 6px -6px #aaaaaa;
+     -moz-box-shadow: 0 8px 6px -6px #aaaaaa;
+          box-shadow: 0 8px 6px -6px #aaaaaa; }
 
 .columns-container {
-  background: white; }
+  background: #f1f2f2; }
 
 #columns {
   position: relative;

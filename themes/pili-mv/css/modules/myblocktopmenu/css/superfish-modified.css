@@ -29,7 +29,8 @@
       position: relative; } }
 
 .sf-menu ul li {
-  width: 100%; }
+  width: 100%;
+  padding: 10px 10px 10px 15px; }
 
 .sf-menu li:hover {
   visibility: inherit;
@@ -62,7 +63,7 @@
     text-transform: uppercase;
     color: #979797;
     display: block;
-    padding: 17px 30px 17px 0px;
+    padding: 17px 30px 15px 0px;
     border-bottom: none; }
   .sf-menu > li.sfHover > a,
   .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a {
@@ -72,18 +73,14 @@
 .sf-menu li li li a {
   display: inline-block;
   position: relative;
-  color: #777777;
-  font-size: 13px;
+  color: #464F4F;
+  font-size: 14px;
   line-height: 16px;
-  font-weight: normal;
-  padding-bottom: 10px; }
-  .sf-menu li li li a:before {
-    content: "\f105";
-    display: inline-block;
-    font-family: Avenir;
-    padding-right: 10px; }
-  .sf-menu li li li a:hover {
-    color: #333333; }
+  font-weight: normal; }
+  .sf-menu li li li a:hover { }
+  .sf-menu li li li:hover {
+    background-color: #89F7BA;
+  }
 
 .sf-menu li ul {
   display: none;
@@ -100,19 +97,39 @@
       top: 0; } }
 
 .sf-menu li li ul {
-  position: static;
+  position: absolute;
   display: block !important;
   opacity: 1 !important;
-  background: none;
+  background: #5FDD9B;
   -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
   -moz-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px; }
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+  top: 0%;
+  left: 100%;
+  padding: 7px 0px;
+  width: 100%;
+  border-radius: 6px; 
+  margin-top: -6px; }
 
 .sf-menu li li li ul {
   padding: 0 0 0 20px; }
 
 .sf-menu li li li ul {
-  width: 220px; }
+  position: absolute;
+  display: block !important;
+  opacity: 1 !important;
+  background: #89F7BA;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+  top: 0%;
+  left: 100%;
+  padding: 7px 0px;
+  width: 100%;
+  border-radius: 6px; }  
+  .sf-menu li li li ul li:hover{
+    background-color: #B3FFD2;
+  }
 
 ul.sf-menu li:hover li ul,
 ul.sf-menu li.sfHover li ul {
@@ -120,7 +137,7 @@ ul.sf-menu li.sfHover li ul {
 
 ul.sf-menu li li:hover ul,
 ul.sf-menu li li.sfHover ul {
-  left: 200px;
+  /*left: 200px;*/
   /* match ul width */
   top: 0; }
 
@@ -130,7 +147,7 @@ ul.sf-menu li li.sfHover li ul {
 
 ul.sf-menu li li li:hover ul,
 ul.sf-menu li li li.sfHover ul {
-  left: 200px;
+  /*left: 200px;*/
   /* match ul width */
   top: 0; }
 
@@ -138,10 +155,11 @@ ul.sf-menu li li li.sfHover ul {
   padding: 15px 0px 15px;
   width: auto;
   background-color: #464F4F;
-  border-radius: 6px; }
+  border-radius: 6px;
+  float: left; }
   .sf-menu > li > ul > li > a {
     text-transform: uppercase;
-    font: 100 16px/20px Avenir, sans-serif;
+    font: 100 14px/20px Avenir, sans-serif;
     color: #ffffff; }
     .sf-menu > li > ul > li > a:hover {
       color: #ffffff; }
@@ -149,7 +167,9 @@ ul.sf-menu li li li.sfHover ul {
 .sf-menu > li > ul > li {
   float: left;
   clear: left;  
-  padding: 10px 45px 10px 20px; }
+  padding: 10px 30px 10px 20px;
+  position: relative;
+  vertical-align: middle; }
   .sf-menu > li > ul > li:hover {
     background-color: #5FDD9B;
   }
@@ -166,29 +186,6 @@ ul.sf-menu li li li.sfHover ul {
   @media (min-width: 480px) and (max-width: 767px) {
     .sf-menu > li > ul > li.first-in-line-xs {
       clear: left; } }
-
-.sf-menu > li > ul > li#category-thumbnail {
-  display: none;
-  width: 100% !important;
-  float: none;
-  clear: both;
-  overflow: hidden;
-  padding-right: 0; }
-  .sf-menu > li > ul > li#category-thumbnail > div {
-    float: left;
-    padding-left: 10px;
-    width: 33.333%; }
-    @media (max-width: 479px) {
-      .sf-menu > li > ul > li#category-thumbnail > div {
-        width: 100%;
-        padding-left: 0;
-        padding-top: 10px;
-        text-align: center; } }
-    .sf-menu > li > ul > li#category-thumbnail > div:first-child {
-      padding-left: 0; }
-    .sf-menu > li > ul > li#category-thumbnail > div img {
-      max-width: 100%;
-      display: block; }
 
 .cat-title {
   display: none; }

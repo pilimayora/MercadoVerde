@@ -1,9 +1,15 @@
 .triangle-up {
+	display: none;
 	width: 0; 
-	height: 0; 
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;	
-	border-bottom: 5px solid #464F4F;
+	height: 0;
+	left: 0px;
+	top: 47px;
+	z-index: 99;
+	position: absolute; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;	
+	border-bottom: 12px solid #464F4F;
+	margin-left: 15px !important;
 }
 
 #block_top_menu {

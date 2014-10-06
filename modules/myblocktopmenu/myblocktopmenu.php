@@ -24,9 +24,9 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
-require (dirname(__FILE__).'/menutoplinks.class.php');
+require (dirname(__FILE__).'/mymenutoplinks.class.php');
 
-class Blocktopmenu extends Module
+class MyBlocktopmenu extends Module
 {
 	private $_menu = '';
 	private $_html = '';
@@ -50,15 +50,15 @@ class Blocktopmenu extends Module
 
 	public function __construct()
 	{
-		$this->name = 'blocktopmenu';
+		$this->name = 'myblocktopmenu';
 		$this->tab = 'front_office_features';
 		$this->version = '1.13';
-		$this->author = 'PrestaShop';
+		$this->author = 'Pili';
 
 		$this->bootstrap = true;
 		parent::__construct();	
 
-		$this->displayName = $this->l('Top horizontal menu');
+		$this->displayName = $this->l('My custom Top horizontal menu');
 		$this->description = $this->l('Adds a new horizontal menu to the top of your e-commerce website.');
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
 	}
@@ -177,7 +177,7 @@ class Blocktopmenu extends Module
 					$this->_html .= $this->displayError($this->l('Please add a label for your default language.'));
 				else
 				{
-					MenuTopLinks::add($links_label, $labels,  Tools::getValue('new_window', 0), (int)Shop::getContextShopID());
+					MyMenuTopLinks::add($links_label, $labels,  Tools::getValue('new_window', 0), (int)Shop::getContextShopID());
 					$this->_html .= $this->displayConfirmation($this->l('The link has been added.'));
 				}
 			}
@@ -186,7 +186,7 @@ class Blocktopmenu extends Module
 		elseif (Tools::isSubmit('deletelinksmenutop'))
 		{
 			$id_linksmenutop = Tools::getValue('id_linksmenutop', 0);
-			MenuTopLinks::remove($id_linksmenutop, (int)Shop::getContextShopID());
+			MyMenuTopLinks::remove($id_linksmenutop, (int)Shop::getContextShopID());
 			Configuration::updateValue('MOD_BLOCKTOPMENU_ITEMS', str_replace(array('LNK'.$id_linksmenutop.',', 'LNK'.$id_linksmenutop), '', Configuration::get('MOD_BLOCKTOPMENU_ITEMS')));
 			$this->_html .= $this->displayConfirmation($this->l('The link has been removed.'));
 			$update_cache = true;
@@ -208,7 +208,7 @@ class Blocktopmenu extends Module
 					$label[$lang['id_lang']] = Tools::getValue('label_'.(int)$lang['id_lang']);
 				}
 
-				MenuTopLinks::update($link, $label, $new_window, (int)$id_shop, (int)$id_linksmenutop, (int)$id_linksmenutop);
+				MyMenuTopLinks::update($link, $label, $new_window, (int)$id_shop, (int)$id_linksmenutop, (int)$id_linksmenutop);
 				$this->_html .= $this->displayConfirmation($this->l('The link has been edited.'));
 			}
 			$update_cache = true;
@@ -219,7 +219,7 @@ class Blocktopmenu extends Module
 		
 		$this->_html .= $this->renderForm().$this->renderAddForm();
 
-		$links = MenuTopLinks::gets((int)$id_lang, null, (int)Shop::getContextShopID());
+		$links = MyMenuTopLinks::gets((int)$id_lang, null, (int)Shop::getContextShopID());
 
 		if (!count($links))
 			return $this->_html;
@@ -307,13 +307,13 @@ class Blocktopmenu extends Module
 					break;
 
 				case 'LNK':
-					$link = MenuTopLinks::get((int)$id, (int)$id_lang, (int)$id_shop);
+					$link = MyMenuTopLinks::get((int)$id, (int)$id_lang, (int)$id_shop);
 					if (count($link))
 					{
 						if (!isset($link[0]['label']) || ($link[0]['label'] == ''))
 						{
 							$default_language = Configuration::get('PS_LANG_DEFAULT');
-							$link = MenuTopLinks::get($link[0]['id_linksmenutop'], (int)$default_language, (int)Shop::getContextShopID());
+							$link = MyMenuTopLinks::get($link[0]['id_linksmenutop'], (int)$default_language, (int)Shop::getContextShopID());
 						}
 						$html .= '<option selected="selected" value="LNK'.(int)$link[0]['id_linksmenutop'].'">'.Tools::safeOutput($link[0]['label']).'</option>';
 					}
@@ -428,13 +428,13 @@ class Blocktopmenu extends Module
 					}
 					break;
 				case 'LNK':
-					$link = MenuTopLinks::get((int)$id, (int)$id_lang, (int)$id_shop);
+					$link = MyMenuTopLinks::get((int)$id, (int)$id_lang, (int)$id_shop);
 					if (count($link))
 					{
 						if (!isset($link[0]['label']) || ($link[0]['label'] == ''))
 						{
 							$default_language = Configuration::get('PS_LANG_DEFAULT');
-							$link = MenuTopLinks::get($link[0]['id_linksmenutop'], $default_language, (int)Shop::getContextShopID());
+							$link = MyMenuTopLinks::get($link[0]['id_linksmenutop'], $default_language, (int)Shop::getContextShopID());
 						}
 						$this->_menu .= '<li><a href="'.Tools::HtmlEntitiesUTF8($link[0]['link']).'"'.(($link[0]['new_window']) ? ' onclick="return !window.open(this.href);"': '').' title="'.Tools::safeOutput($link[0]['label']).'">'.Tools::safeOutput($link[0]['label']).'</a></li>'.PHP_EOL;
 					}
@@ -483,27 +483,12 @@ class Blocktopmenu extends Module
 
 			if (isset($category['children']) && !empty($category['children']))
 			{
+				if ($category['level_depth'] < 3)
+				{
+					$html .= '<div class="triangle-up"></div>';
+				}
 				$html .= '<ul>';
 				$html .= $this->generateCategoriesMenu($category['children']);
-
-				if ((int)$category['level_depth'] == 2)
-				{
-					$files = scandir(_PS_CAT_IMG_DIR_);
-
-					if (count($files) > 0)
-					{
-						$html .= '<li id="category-thumbnail">';
-
-						foreach ($files as $file)
-							if (preg_match('/'.$category['id_category'].'-([0-9])?_thumb.jpg/i', $file) === 1)
-								$html .= '<div><img src="'.$this->context->link->getMediaLink(_THEME_CAT_DIR_.$file)
-								.'" alt="'.Tools::SafeOutput($category['name']).'" title="'
-								.Tools::SafeOutput($category['name']).'" class="imgm" /></div>';
-
-						$html .= '</li>';
-					}
-				}
-
 				$html .= '</ul>';
 			}
 
@@ -579,14 +564,14 @@ class Blocktopmenu extends Module
 	{
 		parent::getCacheId($name);
 		$page_name = in_array($this->page_name, array('category', 'supplier', 'manufacturer', 'cms', 'product')) ? $this->page_name : 'index';
-		return 'blocktopmenu|'.(int)Tools::usingSecureMode().'|'.$page_name.'|'.(int)$this->context->shop->id.'|'.implode(', ',$this->user_groups).'|'.(int)$this->context->language->id.'|'.(int)Tools::getValue('id_category').'|'.(int)Tools::getValue('id_manufacturer').'|'.(int)Tools::getValue('id_supplier').'|'.(int)Tools::getValue('id_cms').'|'.(int)Tools::getValue('id_product');
+		return 'myblocktopmenu|'.(int)Tools::usingSecureMode().'|'.$page_name.'|'.(int)$this->context->shop->id.'|'.implode(', ',$this->user_groups).'|'.(int)$this->context->language->id.'|'.(int)Tools::getValue('id_category').'|'.(int)Tools::getValue('id_manufacturer').'|'.(int)Tools::getValue('id_supplier').'|'.(int)Tools::getValue('id_cms').'|'.(int)Tools::getValue('id_product');
 	}
 
 	public function hookDisplayTop($param)
 	{
 		$this->user_groups =  ($this->context->customer->isLogged() ? $this->context->customer->getGroups() : array(Configuration::get('PS_UNIDENTIFIED_GROUP')));
 		$this->page_name = Dispatcher::getInstance()->getController();
-		if (!$this->isCached('blocktopmenu.tpl', $this->getCacheId()))
+		if (!$this->isCached('myblocktopmenu.tpl', $this->getCacheId()))
 		{
 			if (Tools::isEmpty($this->_menu))
 				$this->makeMenu();
@@ -597,11 +582,11 @@ class Blocktopmenu extends Module
 
 		$this->context->controller->addJS($this->_path.'js/hoverIntent.js');
 		$this->context->controller->addJS($this->_path.'js/superfish-modified.js');
-		$this->context->controller->addJS($this->_path.'js/blocktopmenu.js');
-		$this->context->controller->addCSS($this->_path.'css/blocktopmenu.css');
+		$this->context->controller->addJS($this->_path.'js/myblocktopmenu.js');
+		$this->context->controller->addCSS($this->_path.'css/myblocktopmenu.css');
 		$this->context->controller->addCSS($this->_path.'css/superfish-modified.css');
 
-		$html = $this->display(__FILE__, 'blocktopmenu.tpl', $this->getCacheId());
+		$html = $this->display(__FILE__, 'myblocktopmenu.tpl', $this->getCacheId());
 		return $html;
 	}
 	
@@ -750,7 +735,7 @@ class Blocktopmenu extends Module
 	
 	private function clearMenuCache()
 	{
-		$this->_clearCache('blocktopmenu.tpl');
+		$this->_clearCache('myblocktopmenu.tpl');
 	}
 	
 	public function hookActionShopDataDuplication($params)
@@ -987,13 +972,13 @@ class Blocktopmenu extends Module
 
 		// BEGIN Menu Top Links
 		$html .= '<optgroup label="'.$this->l('Menu Top Links').'">';
-		$links = MenuTopLinks::gets($this->context->language->id, null, (int)Shop::getContextShopID());
+		$links = MyMenuTopLinks::gets($this->context->language->id, null, (int)Shop::getContextShopID());
 		foreach ($links as $link)
 		{
 			if ($link['label'] == '')
 			{
 				$default_language = Configuration::get('PS_LANG_DEFAULT');
-				$link = MenuTopLinks::get($link['id_linksmenutop'], $default_language, (int)Shop::getContextShopID());
+				$link = MyMenuTopLinks::get($link['id_linksmenutop'], $default_language, (int)Shop::getContextShopID());
 				if (!in_array('LNK'.(int)$link[0]['id_linksmenutop'], $items))
 					$html .= '<option value="LNK'.(int)$link[0]['id_linksmenutop'].'">'.$spacer.Tools::safeOutput($link[0]['label']).'</option>';
 			}
@@ -1020,7 +1005,7 @@ class Blocktopmenu extends Module
 
 		if (Tools::isSubmit('updatelinksmenutop'))
 		{
-			$link = MenuTopLinks::getLinkLang(Tools::getValue('id_linksmenutop'), (int)Shop::getContextShopID());
+			$link = MyMenuTopLinks::getLinkLang(Tools::getValue('id_linksmenutop'), (int)Shop::getContextShopID());
 			$links_label_edit = $link['link'];
 			$labels_edit = $link['label'];
 			$new_window_edit = $link['new_window'];
@@ -1051,7 +1036,7 @@ class Blocktopmenu extends Module
 	
 	public function renderList()
 	{
-		$links = MenuTopLinks::gets((int)$this->context->language->id, null, (int)Shop::getContextShopID());
+		$links = MyMenuTopLinks::gets((int)$this->context->language->id, null, (int)Shop::getContextShopID());
 		$fields_list = array(
 			'id_linksmenutop' => array(
 				'title' => $this->l('Link ID'),
