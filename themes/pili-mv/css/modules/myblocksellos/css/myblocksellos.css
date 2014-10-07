@@ -29,12 +29,13 @@
 
 ul.descripcion-sellos {
 	width: 100%;
+	overflow: hidden;
 }
 
 ul.descripcion-sellos li {
 	display: block;
 	width: 9.5%;
-	margin: 1% 1.5% 3% 1.5%;	
+	margin: 1% 1.5% 10% 1.5%;	
 	height: 200px;
 	float: left;
 	border-radius: 6px;
@@ -47,6 +48,24 @@ ul.descripcion-sellos li {
 	ul.descripcion-sellos li:hover {
 		background-color: #ffffff;
 	}
+	ul.descripcion-sellos li:hover div {
+		width: 120%;
+		margin: 0% -10%;
+		height: 140px;
+		bottom: -100px;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+	  	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+	  	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px; 
+	}
+	ul.descripcion-sellos li:hover span.triangle-sellos {
+		width: 120%;
+		left: -10%;
+		padding-left: 60%;
+		padding-bottom: 60%;
+	}
+	ul.descripcion-sellos li:hover span.descripcion-corta {
+		display: block;
+	}	
 
 ul.descripcion-sellos li.energia {
 	border: 1px solid #FFF38D;
@@ -110,8 +129,9 @@ ul.descripcion-sellos li div {
 	height: 40px;
 	font-size: 14px;
 	color: #000000;
-	padding-top: 10px;
 	font-weight: 600;
+  	border-bottom-right-radius: 6px;
+  	border-bottom-left-radius: 6px;
 }
 
 ul.descripcion-sellos li.energia div {
@@ -188,4 +208,11 @@ ul.descripcion-sellos li.aire span:after {
 	border-bottom-color: #D8D8D8;
 }
 
+span.descripcion-corta {
+	clear: both;
+	font-size: 12px;
+	font-weight: normal;
+	display: none;
+	margin: 5px;
+}
 

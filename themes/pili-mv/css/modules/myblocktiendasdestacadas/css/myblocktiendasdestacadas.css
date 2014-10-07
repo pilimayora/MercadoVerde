@@ -1,0 +1,27 @@
+div.tiendas-destacadas {
+	width: 100%;
+	text-align: center;
+	height: 250px;
+	background: #3F4042;
+	position: relative;
+	margin-top: -20px;
+}
+
+div.tiendas-destacadas .titulo {
+	color: #ffffff;
+	font-size: 24px;
+	border: 3px solid #7CF2B1;	
+	padding: 10px 20px;
+	background: #666A70;
+	border-radius: 6px;
+	display: inline-block;
+	position: absolute;
+	top: -12%;
+	left: 40%;
+}
+
+div.toldo {
+	background: url("../../../../img/home/tiendas-destacadas.png") center repeat-x;
+	width: 100%;
+	height: 67px;	
+}

@@ -7,42 +7,82 @@
 	<li class="energia">
 		<img />
 		<span class="triangle-sellos"></span>
-		<div>energia</div>
+		<div>
+			<span>energia</span>
+			<span class="descripcion-corta">
+				Este sello es lo mejor del amor
+			</span>	
+		</div>
 	</li>
 	<li class="reciclaje">
 		<img />
 		<span class="triangle-sellos"></span>
-		<div>reciclaje</div>
+		<div>
+			<span>reciclaje</span>
+			<span class="descripcion-corta">
+				Este sello es lo mejor del amor
+			</span>	
+		</div>
 	</li>
 	<li class="salud">
 		<img />
 		<span class="triangle-sellos"></span>
-		<div>salud</div>
+		<div>
+			<span>salud</span>
+			<span class="descripcion-corta">
+				Este sello es lo mejor del amor
+			</span>
+		</div>
 	</li>
 	<li class="educacion">
 		<img />
 		<span class="triangle-sellos"></span>
-		<div>educacion</div>
+		<div>
+			<span>educacion</span>
+			<span class="descripcion-corta">
+				Este sello es lo mejor del amor
+			</span>
+		</div>
 	</li>
 	<li class="reutilizacion">
 		<img />
 		<span class="triangle-sellos"></span>
-		<div>reutilizacion</div>
+		<div>
+			<span>reutilizacion</span>
+			<span class="descripcion-corta">
+				Este sello es lo mejor del amor
+			</span>
+		</div>
 	</li>
 	<li class="organico">
 		<img />
 		<span class="triangle-sellos"></span>
-		<div>organico</div>
+		<div>
+			<span>organico</span>
+			<span class="descripcion-corta">
+				Este sello es lo mejor del amor
+			</span>
+		</div>
 	</li>
 	<li class="agua">
 		<img />
 		<span class="triangle-sellos"></span>
-		<div>agua</div>
+		<div>
+			<span>agua</span>
+			<span class="descripcion-corta">
+				Este sello es lo mejor del amor
+			</span>
+		</div>
 	</li>
 	<li class="aire">
 		<img />
 		<span class="triangle-sellos"></span>
-		<div>aire</div>
+		<div>
+			<span>aire</span>
+			<span class="descripcion-corta">
+				Este sello es lo mejor del amor
+			</span>
+		</div>
 	</li>
 </ul>
 </div>
