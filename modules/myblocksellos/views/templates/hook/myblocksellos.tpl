@@ -2,15 +2,18 @@
 <h2>
 	<span class="titulo">Niveles de Sustentabilidad</span>
 </h2>
-<h6 class="clearfix">Los niveles de sustentabilidad son Los niveles de sustentabilidad son Los niveles de sustentabilidad son Los niveles de sustentabilidad son Los niveles de sustentabilidad son Los niveles de sustentabilidad son Los niveles de sustentabilidad son Los niveles de sustentabilidad</h6>
+<h6 class="clearfix">Indicadores que permitan delimitar el alcance de los productos susceptibles de ser incorporados en el sitio Mercado Verde.
+<br /><br />
+Conjunto de valores y metas evocadas en el concepto de sostenibilidad. Así, los indicadores de sostenibilidad proveen señales que facilitan la evaluación de progreso hacia objetivos que contribuyen a lograr la meta del bienestar humano y eco sistémico en forma simultánea.
+</h6>
 <ul class="descripcion-sellos">
 	<li class="energia">
 		<img />
 		<span class="triangle-sellos"></span>
 		<div>
-			<span>energia</span>
+			<span class="titulo-sello">energia</span>
 			<span class="descripcion-corta">
-				Este sello es lo mejor del amor
+				Productos y servicios que contribuyan al ahorro energético, implementen el uso de energías limpias, renovables y/o alternativas
 			</span>	
 		</div>
 	</li>
@@ -18,9 +21,9 @@
 		<img />
 		<span class="triangle-sellos"></span>
 		<div>
-			<span>reciclaje</span>
+			<span class="titulo-sello">reciclaje</span>
 			<span class="descripcion-corta">
-				Este sello es lo mejor del amor
+				Productos que estén elaborados con una o más materias primas recicladas
 			</span>	
 		</div>
 	</li>
@@ -28,9 +31,10 @@
 		<img />
 		<span class="triangle-sellos"></span>
 		<div>
-			<span>salud</span>
+			<span class="titulo-sello">salud</span>
 			<span class="descripcion-corta">
-				Este sello es lo mejor del amor
+				Productos o servicios que generen un impacto positivo en el
+desarrollo de un estado de bienestar mental, física y/o espiritual
 			</span>
 		</div>
 	</li>
@@ -38,9 +42,9 @@
 		<img />
 		<span class="triangle-sellos"></span>
 		<div>
-			<span>educacion</span>
+			<span class="titulo-sello">educacion</span>
 			<span class="descripcion-corta">
-				Este sello es lo mejor del amor
+				Productos o servicios que estimulen el desarrollo intelectual y la expansión de conciencia
 			</span>
 		</div>
 	</li>
@@ -50,7 +54,7 @@
 		<div>
 			<span>reutilizacion</span>
 			<span class="descripcion-corta">
-				Este sello es lo mejor del amor
+				Productos o servicios que estén elaborados con uno o más materiales reutilizados
 			</span>
 		</div>
 	</li>
@@ -58,9 +62,9 @@
 		<img />
 		<span class="triangle-sellos"></span>
 		<div>
-			<span>organico</span>
+			<span class="titulo-sello">organico</span>
 			<span class="descripcion-corta">
-				Este sello es lo mejor del amor
+				Productos agrícolas cuyos métodos evitan el uso de productos sintéticos, como pesticidas, herbicidas y fertilizantes artificiales
 			</span>
 		</div>
 	</li>
@@ -68,9 +72,9 @@
 		<img />
 		<span class="triangle-sellos"></span>
 		<div>
-			<span>agua</span>
+			<span class="titulo-sello">agua</span>
 			<span class="descripcion-corta">
-				Este sello es lo mejor del amor
+				Productos o servicios que reduzcan u optimicen el consumo de agua y/o no generen impacto negativo en los afluentes
 			</span>
 		</div>
 	</li>
@@ -78,9 +82,9 @@
 		<img />
 		<span class="triangle-sellos"></span>
 		<div>
-			<span>aire</span>
+			<span class="titulo-sello">aire</span>
 			<span class="descripcion-corta">
-				Este sello es lo mejor del amor
+				Productos o servicios que ayuden a la reducción en la emisión de gases de efecto invernadero
 			</span>
 		</div>
 	</li>

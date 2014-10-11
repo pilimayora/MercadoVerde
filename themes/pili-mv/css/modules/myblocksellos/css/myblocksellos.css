@@ -35,8 +35,8 @@ ul.descripcion-sellos {
 ul.descripcion-sellos li {
 	display: block;
 	width: 9.5%;
-	margin: 1% 1.5% 10% 1.5%;	
-	height: 200px;
+	margin: 1% 1.5% 11% 1.5%;	
+	height: 220px;
 	float: left;
 	border-radius: 6px;
 	text-align: center;
@@ -51,8 +51,8 @@ ul.descripcion-sellos li {
 	ul.descripcion-sellos li:hover div {
 		width: 120%;
 		margin: 0% -10%;
-		height: 140px;
-		bottom: -100px;
+		height: 160px;
+		bottom: -120px;
 		-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
 	  	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
 	  	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px; 
@@ -62,8 +62,8 @@ ul.descripcion-sellos li {
 		left: -10%;
 		padding-left: 60%;
 		padding-bottom: 60%;
-	}
-	ul.descripcion-sellos li:hover span.descripcion-corta {
+	}	
+	ul.descripcion-sellos li:hover span.descripcion-corta {		
 		display: block;
 	}	
 

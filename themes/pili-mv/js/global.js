@@ -94,6 +94,19 @@ $(document).ready(function(){
 			next     : '<a title="' + FancyboxI18nNext + '" class="fancybox-nav fancybox-next" href="javascript:;"><span></span></a>',
 			prev     : '<a title="' + FancyboxI18nPrev + '" class="fancybox-nav fancybox-prev" href="javascript:;"><span></span></a>'
 		});
+
+	$(window).scroll(function(){
+     if($(window).scrollTop()>70){
+            $('#follow_me_header').css('-webkit-box-shadow','0 8px 6px -6px #aaaaaa');
+            $('#follow_me_header').css('-moz-box-shadow','0 8px 6px -6px #aaaaaa');
+            $('#follow_me_header').css('box-shadow','0 8px 6px -6px #aaaaaa');
+      }else{
+          	$('#follow_me_header').css('-webkit-box-shadow','0');
+            $('#follow_me_header').css('-moz-box-shadow','0');
+            $('#follow_me_header').css('box-shadow','0');
+    	}
+	})
+
 });
 
 function highdpiInit()
