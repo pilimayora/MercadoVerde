@@ -4,7 +4,8 @@ Product list Styles
 ul.product_list .product-name {
   display: inline-block;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  text-transform: uppercase; }
 ul.product_list .availability span {
   display: inline-block;
   color: white;
@@ -171,12 +172,18 @@ ul.product_list.grid > li {
   ul.product_list.grid > li .product-container {
     background: white;
     padding: 0;
-    position: relative; }
+    position: relative;
+    -webkit-box-shadow: 0px 3px 8px 1px #aaaaaa;
+    -moz-box-shadow: 0px 3px 8px 1px #aaaaaa;
+    box-shadow: 0px 3px 8px 1px #aaaaaa;
+    border-radius: 6px; }
     ul.product_list.grid > li .product-container .product-image-container {
       border: 1px solid #d6d4d4;
       padding: 9px;
       margin-bottom: 13px;
-      position: relative; }
+      position: relative;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px; }
       @media (max-width: 767px) {
         ul.product_list.grid > li .product-container .product-image-container {
           max-width: 290px;
@@ -195,8 +202,12 @@ ul.product_list.grid > li {
           ul.product_list.grid > li .product-container .product-image-container .content_price span.old-price {
             color: #b1b0b0; }
     ul.product_list.grid > li .product-container h5 {
-      padding: 0 15px 7px 15px;
-      min-height: 53px; }
+      padding: 0 10px 0px 10px;
+      min-height: 30px;
+      text-align: left;
+      width: 60%;
+      float: left;
+      margin-top: 3px; }
     @media (min-width: 1200px) {
       ul.product_list.grid > li .product-container .comments_note {
         display: none; } }
@@ -206,7 +217,11 @@ ul.product_list.grid > li {
       display: none; }
     ul.product_list.grid > li .product-container .content_price {
       padding-bottom: 9px;
-      line-height: 21px; }
+      line-height: 21px;
+      float: left;
+      width: 40%;
+      padding-right: 5%;
+      text-align: right; }
     ul.product_list.grid > li .product-container .old-price,
     ul.product_list.grid > li .product-container .price,
     ul.product_list.grid > li .product-container .price-percent-reduction {

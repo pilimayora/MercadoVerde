@@ -197,6 +197,7 @@
 						{/if}
 					</div>
 				{/if}
+				<div class="clearfix"></div>
 			</div><!-- .product-container> -->
 		</li>
 	{/foreach}

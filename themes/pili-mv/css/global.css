@@ -5824,7 +5824,7 @@ table.table_block td {
     background: #fbfbfb; }
 
 .product-name {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 23px;
   color: #3a3939;
   margin-bottom: 0; }
@@ -5844,8 +5844,8 @@ table.table_block td {
   white-space: nowrap; }
 
 .price.product-price {
-  font: 600 21px/26px "Avenir", sans-serif;
-  color: #333333; }
+  font: normal 16px/26px "Avenir", sans-serif;
+  color: #5FDD9B; }
 
 .old-price {
   color: #6f6f6f;
@@ -5868,7 +5868,6 @@ table.table_block td {
     font: 700 14px/17px Arial, Helvetica, sans-serif;
     padding: 1px 6px; }
 
-.new-box,
 .sale-box {
   position: absolute;
   top: -4px;
@@ -5879,13 +5878,37 @@ table.table_block td {
   z-index: 0; }
 
 .new-box {
-  left: -4px; }
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  overflow: hidden;
+  height: 26px;
+  width: 30%;
+  text-align: center;
+  z-index: 0;
+  border-radius: 6px;
+}
 
 .sale-box {
   right: -5px; }
 
 .new-label {
-  font: 700 14px/12px Arial, Helvetica, sans-serif;
+  font: 700 14px/12px Avenir, Helvetica, sans-serif;
+  color: white;
+  background: #5FDD9B;
+  text-transform: uppercase;
+  padding: 7px 0px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1; }
+  
+/*.new-label {
+  font: 700 14px/12px Avenir, Helvetica, sans-serif;
   color: white;
   background: #6ad4ff;
   text-transform: uppercase;
@@ -5928,7 +5951,7 @@ table.table_block td {
     text-indent: -5000px;
     -webkit-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
-    transform: rotate(135deg); }
+    transform: rotate(135deg); }*/
 
 .sale-label {
   font: 700 14px/12px Arial, Helvetica, sans-serif;
@@ -6039,7 +6062,7 @@ table.table_block td {
 
 #home-page-tabs {
   border: none;
-  background: white; }
+  background: inherit; }
   @media (min-width: 768px) {
     #home-page-tabs {
       padding: 10px 0;
