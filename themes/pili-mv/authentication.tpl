@@ -28,7 +28,7 @@
 		<span class="navigation-pipe">{$navigationPipe}</span>{l s='Create your account'}
 	{/if}
 {/capture}
-<h1 class="page-heading">{if !isset($email_create)}{l s='Authentication'}{else}{l s='Create an account'}{/if}</h1>
+<!-- <h1 class="page-heading">{if !isset($email_create)}{l s='Authentication'}{else}{l s='Create an account'}{/if}</h1> -->
 {if isset($back) && preg_match("/^http/", $back)}{assign var='current_step' value='login'}{include file="$tpl_dir./order-steps.tpl"}{/if}
 {include file="$tpl_dir./errors.tpl"}
 {assign var='stateExist' value=false}
@@ -50,11 +50,11 @@
 	</div>
 	{/if}-->
 	<div class="row">
-		<div class="col-xs-12 col-sm-6">
+		<div class="authentication_box">
 			<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="create-account_form" class="box">
-				<h3 class="page-subheading">{l s='Create an account'}</h3>
+				<h3 class="page-subheading">{l s='Crear perfil / Tienda'}</h3>
 				<div class="form_content clearfix">
-					<p>{l s='Please enter your email address to create an account.'}</p>
+					<p>Ingresá tu dirección de e-mail para empezar a cambiar tus hábitos de consumo</p>
 					<div class="alert alert-danger" id="create_account_error" style="display:none"></div>
 					<div class="form-group">
 						<label for="email_create">{l s='Email address'}</label>
@@ -62,10 +62,9 @@
 					</div>
 					<div class="submit">
 						{if isset($back)}<input type="hidden" class="hidden" name="back" value="{$back|escape:'html':'UTF-8'}" />{/if}
-						<button class="btn btn-default button button-medium exclusive" type="submit" id="SubmitCreate" name="SubmitCreate">
+						<button class="btn_authentication button btn btn-default" type="submit" id="SubmitCreate" name="SubmitCreate">
 							<span>
-								<i class="icon-user left"></i>
-								{l s='Create an account'}
+								{l s='Crear Perfil'}
 							</span>
 						</button>
 						<input type="hidden" class="hidden" name="SubmitCreate" value="{l s='Create an account'}" />
@@ -73,7 +72,7 @@
 				</div>
 			</form>
 		</div>
-		<div class="col-xs-12 col-sm-6">
+		<div class="authentication_box">
 			<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="login_form" class="box">
 				<h3 class="page-subheading">{l s='Already registered?'}</h3>
 				<div class="form_content clearfix">
@@ -88,9 +87,8 @@
 					<p class="lost_password form-group"><a href="{$link->getPageLink('password')|escape:'html':'UTF-8'}" title="{l s='Recover your forgotten password'}" rel="nofollow">{l s='Forgot your password?'}</a></p>
 					<p class="submit">
 						{if isset($back)}<input type="hidden" class="hidden" name="back" value="{$back|escape:'html':'UTF-8'}" />{/if}
-						<button type="submit" id="SubmitLogin" name="SubmitLogin" class="button btn btn-default button-medium">
+						<button type="submit" id="SubmitLogin" name="SubmitLogin" class="btn_authentication button btn btn-default">
 							<span>
-								<i class="icon-lock left"></i>
 								{l s='Sign in'}
 							</span>
 						</button>

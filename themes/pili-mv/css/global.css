@@ -718,7 +718,10 @@ header .row #header_logo,
     width: 16.66667%; }
 
   .col-sm-3 {
-    width: 25%; }
+    width: 25%;
+    padding: 0% 2%;
+    border-left: 1px solid #979797;
+    margin-top: 35px; }
 
   .col-sm-4, header .row #header_logo {
     width: 25%; }
@@ -727,7 +730,8 @@ header .row #header_logo,
     width: 41.66667%; }
 
   .col-sm-6 {
-    width: 50%; }
+    width: 50%;
+     }
 
   .col-sm-7 {
     width: 58.33333%; }
@@ -869,7 +873,7 @@ header .row #header_logo,
     width: 16.66667%; }
 
   .col-md-3 {
-    width: 25%; }
+    width: 33.33333%; }
 
   .col-md-4 {
     width: 33.33333%; }
@@ -2326,7 +2330,10 @@ input[type="button"].btn-block {
 .tabbable:after {
   clear: both; }
 
-.tab-content > .tab-pane,
+.tab-content {
+  display: block;
+}
+
 .pill-content > .pill-pane {
   display: none; }
 
@@ -5287,7 +5294,10 @@ textarea {
 
 #index .tab-content {
   margin-top: 35px;
-  margin-bottom: 34px; }
+  margin-bottom: 34px;
+  width: 75%;
+  float: left;
+  padding-right: 2%; }
 
 header {
   z-index: 1;
@@ -5338,6 +5348,16 @@ header .nav .top_menu {
 
 .ie8 #header #header_logo {
   width: 350px; }
+
+div#left_column_home {
+  width: 80%;
+  float: left;
+}
+
+div#informate {
+  width: 20%;
+  float: left;
+}
 
 #center_column .page_product_box h3 {
   color: #555454;
@@ -6060,6 +6080,15 @@ table.table_block td {
       width: 100%;
       height: auto; }
 
+div.home_tab_block {
+  margin: 0px 0px 40px 0px;
+}
+
+h5.home_tab {
+  font: normal 24px/24px "Avenir", sans-serif;
+  color: #555454;
+  margin-bottom: 15px; }
+
 #home-page-tabs {
   border: none;
   background: inherit; }
@@ -6078,9 +6107,8 @@ table.table_block td {
       #home-page-tabs > li {
         width: 100%; } }
     #home-page-tabs > li a {
-      font: 600 21px/24px "Avenir", sans-serif;
-      color: #555454;
-      text-transform: uppercase;
+      font: normal 24px/24px "Avenir", sans-serif;
+      color: #555454;      
       border: none;
       outline: none;
       margin: 0;
@@ -6244,12 +6272,12 @@ table.table_block td {
   font-family: Avenir;
   font-weight: 600;
   text-transform: uppercase;
-  color: #555454;
-  font-size: 18px;
+  color: #666A70;
+  font-size: 24px;
   padding: 0 0 15px;
   line-height: normal;
   margin-bottom: 12px;
-  border-bottom: 1px solid #d6d4d4; }
+  text-align: center; }
 
 h3.page-product-heading {
   color: #555454;
@@ -7511,7 +7539,8 @@ p.cheque-indent {
   #new_account_form .form-group .form-control,
   #opc_account_form .form-group .form-control,
   #authentication .form-group .form-control {
-    max-width: 271px; }
+    max-width: 260px;
+    float: right; }
     #address .form-group .form-control#adress_alias,
     #identity .form-group .form-control#adress_alias,
     #account-creation_form .form-group .form-control#adress_alias,

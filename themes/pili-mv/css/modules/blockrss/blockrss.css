@@ -1,0 +1,26 @@
+div#rss_block_left .block_content {
+	margin_top: 20px;
+	display: block;
+}
+
+.block_content ul li {
+	padding: 20px 0px;
+}
+
+span.rss_title {
+	display: block;
+	margin: 10px 0px 5px 0px;
+}
+
+span.rss_title a {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+span.rss_date {
+	color: #A6A8AB;
+}
+
+div.rss_description {
+	margin-top: 8px;
+}

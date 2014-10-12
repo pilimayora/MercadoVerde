@@ -17,19 +17,15 @@ class MyBlockSellos extends Module
 		$this->displayName = $this->l('Sellos de sustentabilidad');
 		$this->description = $this->l('Descripcion del significado de los sellos de sustentabilidad en el homepage');
 
-		$this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
-
-		if (!Configuration::get('MYBLOCKSELLOS_NAME'))      
-      		$this->warning = $this->l('No name provided');
+		$this->confirmUninstall = $this->l('Are you sure you want to uninstall?');		
 	}
 
 	public function install() 
 	{
 		return parent::install() &&
 			$this->registerHook('home') &&
-			$this->registerHook('homeTab') &&
 			$this->registerHook('header') &&
-			Configuration::updateValue('MYBLOCKSELLOS_NAME', 'Sellos');
+			$this->registerHook('topColumn');
 	}
 
 	public function uninstall()
@@ -43,7 +39,7 @@ class MyBlockSellos extends Module
 		return $this->display(__FILE__, 'myblocksellos.tpl');
 	}
 
-	public function hookDisplayHomeTab()
+	public function hookDisplayTopColumn()
 	{		
 		return $this->display(__FILE__, 'myblocksellos.tpl');
 	}

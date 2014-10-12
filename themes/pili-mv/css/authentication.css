@@ -7,22 +7,98 @@
   display: none; }
 
 #create-account_form {
-  min-height: 297px; }
+  min-height: 300px;
+  position: relative; }
   #create-account_form p {
     margin-bottom: 8px; }
   #create-account_form .form-group {
-    margin: 0 0 20px 0; }
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 5%; }
 
 #login_form {
-  min-height: 297px; }
+  min-height: 300px;
+  position: relative; }
   #login_form .form-group {
-    margin: 0 0 3px 0; }
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 9%; }
     #login_form .form-group.lost_password {
-      margin: 14px 0 15px 0; }
+      clear: both;
+      margin: auto;
+      font-size: 14px; 
+      display: block;
+      padding-top: 10px; }
       #login_form .form-group.lost_password a {
-        text-decoration: underline; }
+        text-decoration: none;
+        color: #979797; }
         #login_form .form-group.lost_password a:hover {
           text-decoration: none; }
 
 #login_form .form-control, #create-account_form .form-control {
-  max-width: 271px; }
+  height: 28px;
+  border-radius: 14px; }
+
+.row {
+  margin-bottom: 40px;
+}
+
+.authentication_box {
+  width: 46%;
+  margin-top: 40px;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
+  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
+  box-shadow: 0 3px 10px 0px #aaaaaa;
+  border-radius: 6px;
+  text-align: center; }
+
+.authentication_box p {
+  font-size: 16px;
+}  
+
+.authentication_box label {
+  float: left;
+  color: inherit;
+  font-weight: normal;
+  font-size: 16px;
+  margin-right: 5%;
+  margin-top: 1%;
+  clear: both;
+}
+
+.authentication_box .submit {
+  position: absolute;
+  bottom: 8%;
+  width: 94%;
+}
+
+form.box {
+  margin: 0;
+  border: none;
+  border-radius: inherit;
+}
+
+.btn_authentication {
+  color: #464F4F;
+  background-color: #5FDD9B;
+  background-image: none;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
+  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
+  box-shadow: 0 4px 5px -2px #aaaaaa;
+  font-size: 16px;
+  line-height: 26px;
+  width: 30%;
+  padding: 2% 3%;
+  font-weight: 600;
+}
+
+.btn_authentication:hover {
+  background-color: #9FFFC8;
+}

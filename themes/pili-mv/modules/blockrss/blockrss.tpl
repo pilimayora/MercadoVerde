@@ -25,12 +25,22 @@
 
 <!-- Block RSS module-->
 <div id="rss_block_left" class="block">
-	<p class="title_block">{$title}</p>
+	<h5 class="home_tab">{$title}</h5>
 	<div class="block_content">
 		{if $rss_links}
 			<ul>
 				{foreach from=$rss_links item='rss_link'}
-					<li><a href="{$rss_link.url}">{$rss_link.title}</a></li>
+					<li>
+						<span class="rss_title"><a href="{$rss_link.url}">
+							{$rss_link.title}
+						</a></span>
+						<span class="rss_date">
+							{date('d/m/Y', $rss_link.pubDate)}
+						</span>
+						<div class="rss_description">
+							{$rss_link.description}	
+						</div>
+					</li>
 				{/foreach}
 			</ul>
 		{else}
