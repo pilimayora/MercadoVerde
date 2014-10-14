@@ -3,7 +3,7 @@ div#rss_block_left .block_content {
 	display: block;
 }
 
-.block_content ul li {
+div#rss_block_left .block_content ul li {
 	padding: 20px 0px;
 }
 

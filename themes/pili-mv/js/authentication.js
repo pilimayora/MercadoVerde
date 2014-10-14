@@ -72,8 +72,9 @@ function submitFunction()
 							bindUniform();
 						if (typeof bindStateInputAndUpdate !=='undefined')
 							bindStateInputAndUpdate();
-						document.location = '#account-creation';
+						document.location = '#account-creation';						
 					});
+					$('#noSlide').addClass('authentication_box');
 				});
 			}
 		},

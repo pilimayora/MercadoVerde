@@ -55,7 +55,7 @@
 			</li>
 			<li>
 				<a href="{$link->getPageLink('identity', true)|escape:'html':'UTF-8'}" title="{l s='My personal info' mod='blockmyaccount'}">
-					{l s='My personal info' mod='blockmyaccount'}
+					{l s='Mi información personal' mod='blockmyaccount'}
 				</a>
 			</li>
 			{if $voucherAllowed}

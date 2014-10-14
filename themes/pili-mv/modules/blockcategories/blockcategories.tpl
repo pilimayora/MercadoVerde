@@ -29,7 +29,7 @@
 		{if isset($currentCategory)}
 			{$currentCategory->name|escape}
 		{else}
-			{l s='Categories' mod='blockcategories'}
+			{l s='Categorías' mod='blockcategories'}
 		{/if}
 	</h2>
 	<div class="block_content">

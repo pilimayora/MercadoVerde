@@ -7,19 +7,24 @@
   display: none; }
 
 #create-account_form {
-  min-height: 300px;
-  position: relative; }
+  min-height: 300px; }
   #create-account_form p {
     margin-bottom: 8px; }
-  #create-account_form .form-group {
-    width: 70%;
+  #create-account_form .form-group, #account-creation_form .form-group {
     margin: auto;
     position: relative;
     margin-bottom: 5%; }
 
+#create-account_form .form-group {
+  width: 70%;
+}
+
+#account-creation_form .form-group {
+  width: 80%;
+}
+
 #login_form {
-  min-height: 300px;
-  position: relative; }
+  min-height: 300px; }
   #login_form .form-group {
     width: 70%;
     margin: auto;
@@ -37,9 +42,22 @@
         #login_form .form-group.lost_password a:hover {
           text-decoration: none; }
 
-#login_form .form-control, #create-account_form .form-control {
+#login_form .form-control, #create-account_form .form-control,
+ #account-creation_form .form-control{
   height: 28px;
   border-radius: 14px; }
+
+#account-creation_form .checkbox {
+  clear: both;
+  width: 40%;
+  margin: 0% 30%;
+}
+
+label.newsletter {
+  clear: none !important;
+  margin-top: 0% !important;
+  margin-left: 10px;
+}
 
 .row {
   margin-bottom: 40px;
@@ -47,14 +65,10 @@
 
 .authentication_box {
   width: 46%;
-  margin-top: 40px;
+  margin-top: 20px;
   float: left;
   margin-left: 2%;
   margin-right: 2%;
-  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
-  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
-  box-shadow: 0 3px 10px 0px #aaaaaa;
-  border-radius: 6px;
   text-align: center; }
 
 .authentication_box p {
@@ -71,16 +85,13 @@
   clear: both;
 }
 
-.authentication_box .submit {
-  position: absolute;
-  bottom: 8%;
-  width: 94%;
-}
-
 form.box {
   margin: 0;
   border: none;
-  border-radius: inherit;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
+  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
+  box-shadow: 0 3px 10px 0px #aaaaaa;
 }
 
 .btn_authentication {
@@ -97,6 +108,10 @@ form.box {
   width: 30%;
   padding: 2% 3%;
   font-weight: 600;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 30px;
 }
 
 .btn_authentication:hover {

@@ -388,7 +388,7 @@
 			<p class="cart_navigation required submit clearfix">
 				<span><sup>*</sup>{l s='Required field'}</span>
 				<input type="hidden" name="display_guest_checkout" value="1" />
-				<button type="submit" class="button btn btn-default button-medium" name="submitGuestAccount" id="submitGuestAccount">
+				<button type="submit" class="btn_authentication button btn btn-default" name="submitGuestAccount" id="submitGuestAccount">
 					<span>
 						{l s='Proceed to checkout'}
 						<i class="icon-chevron-right right"></i>
@@ -415,8 +415,8 @@
 	<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="account-creation_form" class="std box">
 		{$HOOK_CREATE_ACCOUNT_TOP}
 		<div class="account_creation">
-			<h3 class="page-subheading">{l s='Your personal information'}</h3>
-			<div class="clearfix">
+			<h3 class="page-subheading">{l s='Información personal'}</h3>
+			<!-- <div class="clearfix">
 				<label>{l s='Title'}</label>
 				<br />
 				{foreach from=$genders key=k item=gender}
@@ -427,75 +427,27 @@
 						</label>
 					</div>
 				{/foreach}
+			</div> -->
+			<div class="required form-group clearfix">
+				<label for="customer_firstname">{l s='First name'}</label>
+				<input onkeyup="$('#firstname').val(this.value);" type="text" class="is_required validate form-control" data-validate="isName" id="customer_firstname" name="customer_firstname" value="{if isset($smarty.post.customer_firstname)}{$smarty.post.customer_firstname}{/if}" />				
 			</div>
-			<div class="required form-group">
-				<label for="customer_firstname">{l s='First name'} <sup>*</sup></label>
-				<input onkeyup="$('#firstname').val(this.value);" type="text" class="is_required validate form-control" data-validate="isName" id="customer_firstname" name="customer_firstname" value="{if isset($smarty.post.customer_firstname)}{$smarty.post.customer_firstname}{/if}" />
-			</div>
-			<div class="required form-group">
-				<label for="customer_lastname">{l s='Last name'} <sup>*</sup></label>
+			<div class="required form-group clearfix">
+				<label for="customer_lastname">{l s='Last name'}</label>
 				<input onkeyup="$('#lastname').val(this.value);" type="text" class="is_required validate form-control" data-validate="isName" id="customer_lastname" name="customer_lastname" value="{if isset($smarty.post.customer_lastname)}{$smarty.post.customer_lastname}{/if}" />
 			</div>
-			<div class="required form-group">
-				<label for="email">{l s='Email'} <sup>*</sup></label>
+			<div class="required form-group clearfix">
+				<label for="email">Email</label>
 				<input type="text" class="is_required validate form-control" data-validate="isEmail" id="email" name="email" value="{if isset($smarty.post.email)}{$smarty.post.email}{/if}" />
 			</div>
-			<div class="required password form-group">
-				<label for="passwd">{l s='Password'} <sup>*</sup></label>
+			<div class="required password form-group clearfix">
+				<label for="passwd">{l s='Password'}</label>
 				<input type="password" class="is_required validate form-control" data-validate="isPasswd" name="passwd" id="passwd" />
-				<span class="form_info">{l s='(Five characters minimum)'}</span>
 			</div> 
-			<div class="form-group">
-				<label>{l s='Date of Birth'}</label>
-				<div class="row">
-					<div class="col-xs-4">
-						<select id="days" name="days" class="form-control">
-							<option value="">-</option>
-							{foreach from=$days item=day}
-								<option value="{$day}" {if ($sl_day == $day)} selected="selected"{/if}>{$day}&nbsp;&nbsp;</option>
-							{/foreach}
-						</select>
-						{*
-							{l s='January'}
-							{l s='February'}
-							{l s='March'}
-							{l s='April'}
-							{l s='May'}
-							{l s='June'}
-							{l s='July'}
-							{l s='August'}
-							{l s='September'}
-							{l s='October'}
-							{l s='November'}
-							{l s='December'}
-						*}
-					</div>
-					<div class="col-xs-4">
-						<select id="months" name="months" class="form-control">
-							<option value="">-</option>
-							{foreach from=$months key=k item=month}
-								<option value="{$k}" {if ($sl_month == $k)} selected="selected"{/if}>{l s=$month}&nbsp;</option>
-							{/foreach}
-						</select>
-					</div>
-					<div class="col-xs-4">
-						<select id="years" name="years" class="form-control">
-							<option value="">-</option>
-							{foreach from=$years item=year}
-								<option value="{$year}" {if ($sl_year == $year)} selected="selected"{/if}>{$year}&nbsp;&nbsp;</option>
-							{/foreach}
-						</select>
-					</div>
-				</div>
-			</div>
 			{if $newsletter}
 				<div class="checkbox">
 					<input type="checkbox" name="newsletter" id="newsletter" value="1" {if isset($smarty.post.newsletter) AND $smarty.post.newsletter == 1} checked="checked"{/if} />
-					<label for="newsletter">{l s='Sign up for our newsletter!'}</label>
-				</div>
-				<div class="checkbox">
-					<input type="checkbox" name="optin" id="optin" value="1" {if isset($smarty.post.optin) AND $smarty.post.optin == 1} checked="checked"{/if} />
-					<label for="optin">{l s='Receive special offers from our partners!'}</label>
+					<label class="newsletter" for="newsletter">{l s='Suscribir a Newsletter'}</label>
 				</div>
 			{/if}
 		</div>
@@ -640,10 +592,9 @@
 			<input type="hidden" name="email_create" value="1" />
 			<input type="hidden" name="is_new_customer" value="1" />
 			{if isset($back)}<input type="hidden" class="hidden" name="back" value="{$back|escape:'html':'UTF-8'}" />{/if}
-			<button type="submit" name="submitAccount" id="submitAccount" class="btn btn-default button button-medium">
+			<button type="submit" name="submitAccount" id="submitAccount" class="btn_authentication btn btn-default button">
 				<span>{l s='Register'}<i class="icon-chevron-right right"></i></span>
-			</button>
-			<p class="pull-right required"><span><sup>*</sup>{l s='Required field'}</span></p>
+			</button>		
 		</div>
 	</form>
 {/if}
