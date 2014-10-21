@@ -1,0 +1,13 @@
+﻿Hallo,
+
+U hebt een bericht ontvangen via uw webshop: {shop_name}
+
+Berichtdetails:
+
+Review
+
+{review}
+
+
+
+{shop_url}

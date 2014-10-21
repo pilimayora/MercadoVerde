@@ -5285,7 +5285,9 @@ textarea {
           box-shadow: 0 8px 6px -6px #aaaaaa; }
 
 .columns-container {
-  background: #f1f2f2; }
+  background: #f1f2f2; 
+  background-image: url("../img/home/background.png");
+  background-repeat: repeat; }
 
 #columns {
   position: relative;
@@ -5577,7 +5579,7 @@ span.exclusive {
       background: #575757;
       border-color: #303030 #303030 #666666 #444444; }
 
-.button.button-medium {
+/*.button.button-medium {
   font-size: 17px;
   line-height: 21px;
   color: white;
@@ -5605,7 +5607,7 @@ span.exclusive {
       .button.button-medium span {
         font-size: 15px;
         padding-right: 7px;
-        padding-left: 7px; } }
+        padding-left: 7px; } }*/
     .button.button-medium span i.left {
       font-size: 24px;
       vertical-align: -2px;
@@ -5620,7 +5622,7 @@ span.exclusive {
       @media (max-width: 480px) {
         .button.button-medium span i.right {
           margin-left: 5px; } }
-  .button.button-medium:hover {
+  /*.button.button-medium:hover {
     background: #3aa04c;
     background: -moz-linear-gradient(top, #3aa04c 0%, #3aa04a 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3aa04c), color-stop(100%, #3aa04a));
@@ -5630,6 +5632,30 @@ span.exclusive {
     background: linear-gradient(to bottom, #3aa04c 0%, #3aa04a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3aa04c', endColorstr='#3aa04a',GradientType=0 );
     border-color: #196f28 #399a49 #399a49 #258033; }
+*/
+.button.button-medium {
+  color: #464F4F;
+  background-color: #5FDD9B;
+  background-image: none;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
+  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
+  box-shadow: 0 4px 5px -2px #aaaaaa;
+  font-size: 16px;
+  line-height: 26px;
+  width: 30%;
+  padding: 2% 3%;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 30px;
+}
+
+.button.button-medium:hover {
+  background-color: #9FFFC8;
+}    
 
 .button.button-medium.exclusive {
   border-color: #db8600 #d98305 #c86d26 #d98305;

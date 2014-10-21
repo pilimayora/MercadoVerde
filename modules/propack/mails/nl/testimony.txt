@@ -1,0 +1,18 @@
+﻿Hallo,
+
+U hebt een bericht ontvangen van {name} via uw webshop: {shop_name}
+
+Berichtdetails:
+Naam klant: {name}
+
+E-mail klant: {email}
+
+Klant URL: {url}
+
+Testimonial
+
+{message}
+
+
+
+{shop_url}

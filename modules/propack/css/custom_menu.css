@@ -1,0 +1,44 @@
+.propack-content{
+	width:70%;
+	float:left;
+	margin-left:2%;
+	font-size:12px;
+	
+}
+
+.propack-menu{width:25%;
+			 float:left;
+			 padding:5px}
+
+ul.leftMenu  {
+	font-size:12px;
+    list-style: none outside none;
+    margin: 1px 0 0;
+    padding: 0 0 16px;
+	margin: -1px 0 0;
+}
+
+
+
+ul.leftMenu li {
+    /*background: url("../images/left_menu_dashed.png") no-repeat scroll 0 0 transparent;*/
+    height: 30px;
+    margin: -1px 0 0;
+    padding: 0;
+	
+   
+}
+
+ul.leftMenu li a {
+    display: block;
+    font-size: 110%;
+    font-weight: bold;
+    height: 26px;
+    line-height: 1.2em;
+    padding: 10px 0 0 19px;
+	text-decoration:none!important;
+}
+ul.leftMenu li a.selected{ 
+/*background:url("news-bg.gif") repeat-x scroll left top #F4E6C9*/
+	background-color:#F4E6C9;
+}

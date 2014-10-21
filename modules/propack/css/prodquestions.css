@@ -1,0 +1,196 @@
+.answBox .answInf b{color: #428B01;}
+
+.answBox .answInf strong {
+    color: #CC5500;
+}
+
+
+.answBox .answInf span {
+    color: #CCCCCC;
+    padding: 0 5px;
+}
+
+.answBox .answInf {
+    padding: 0 0 7px;
+}
+
+.item-questions{border-bottom:1px solid #E4E4E4;margin-bottom:20px}
+.answBox-question{font-family: Tahoma,Arial,sans-serif; font-size: 14px; color: rgb(51, 51, 51);}
+.answBox-response{margin:20px 0 10px 30px}
+
+a.blueBtn{text-decoration:none}
+a:hover.blueBtn{text-decoration:none}
+
+.blueBtn  {
+    background: url("../i/btn_bg4.gif") repeat-x scroll 0 0 #2882C8;
+    border-left: 1px solid #2173B3;
+    border-right: 1px solid #2173B3;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 80%;
+    height: 17px;
+    line-height: 1em;
+    position: relative;
+    text-transform: uppercase;
+    width:210px;
+    text-align:center;
+    margin:10px auto 15px;
+}
+
+.blueBtn b  {
+    border-bottom: 1px solid #2173B3;
+    border-top: 1px solid #2173B3;
+    display: block;
+    height: 13px;
+    padding: 4px 10px 0;
+    position: relative;
+    top: -1px;
+    color:white;
+}
+
+
+
+#add-question-form {background-color:#FAFAFA;
+				  margin-top:20px;
+				  padding:5px;
+				  border:1px solid #C4C4C4;
+				  display:none
+				}
+
+#add-question-form .title-rev{
+    border-bottom: 1px solid #C4C4C4;
+    color: #2580C7;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#add-question-form table{
+	margin-top:10px;
+	width:100%;
+	           
+}
+
+#add-question-form .form-left{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 10px;
+    width: 30%;
+    line-height:2.5em
+}
+
+
+
+#add-question-form .form-right{width:70%}
+
+
+a.greenBtnBig{text-decoration:none}
+					
+.greenBtnBig  {
+    background: url("../i/btn_bg1.gif") repeat-x scroll 0 0 #4B9F00;
+    border-left: 1px solid #408700;
+    border-right: 1px solid #408700;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 0.8em;
+    margin:0 auto 15px;
+    position: relative;
+}
+
+.greenBtnBig {
+    text-align: center;
+    width: 220px;
+}
+
+.greenBtnBig b {
+    border-bottom: 1px solid #408700;
+    border-top: 1px solid #408700;
+    color: white;
+    display: block;
+    height: 14px;
+    padding: 4px 10px 0;
+    position: relative;
+    top: -1px;
+}
+
+a.greyBtnBig{text-decoration:none}
+
+.greyBtnBig  {
+    background: url("../i/btn_bg6.gif") repeat-x scroll 0 0 #3086CA;
+    border-left: 1px solid #0054A6;
+    border-right: 1px solid #0054A6;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 0.8em;
+    margin:0 auto 15px;
+    position: relative;
+}
+
+.greyBtnBig {
+    text-align: center;
+    width: 140px;
+}
+
+.greyBtnBig b {
+    border-bottom: 1px solid #0054A6;
+    border-top: 1px solid #0054A6;
+    color: white;
+    display: block;
+    height: 14px;
+    padding: 4px 10px 0;
+    position: relative;
+    top: -1px;
+}
+
+
+
+.pages { height:15px; padding:0 0 10px 10px; font-size:100%; /*margin-top:20px;*/ line-height:1.2em;  }
+.pages span, .pages b, .pages a { font-weight:bold; }
+.pages a{color:#2580c7}
+.pages span { color:#bbb; padding:1px 8px 2px 0; }
+.pages span.nums { padding:0 10px 0 5px; }
+.pages span.nums b, .pages span.nums a { padding:1px 6px 3px 6px; background:#ececec; text-decoration:none; margin-right:4px; }
+.pages span.nums a:hover { background:#2580c7; color:#fff; }
+.pages span.nums b { background:#6ec31c; color:#fff; }
+
+
+.no-registered{margin:10px 10px 10px 150px; font-weight:bold; text-align:center}
+
+#succes-question{display:none;
+	border: 1px solid #4DA400;
+    color: #4DA400;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+	margin-top:10px
+}
+
+.error_testimonials_form{background-color:#FFFCE7}
+
+.inpCaptchaReview {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 2px;
+    min-height: 18px;
+}
+.float-left{float:left}
+.float-right{float:right}
+.clr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.clear{clear:both}	
+
+
+.padding16-question{height:19px!important}
+.padding16-question-form{height:20px!important}

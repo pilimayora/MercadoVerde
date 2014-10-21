@@ -1,0 +1,13 @@
+﻿Hi gggg,
+
+You have received a message via your shop: {shop_name}
+
+Details of message:
+
+Review
+
+{review}
+
+
+
+{shop_url} powered by PrestaShop™

@@ -80,7 +80,7 @@
                 </div>
                 <div class="required form-group">
                     <label for="email" class="required">
-                        {l s='E-mail address'} 
+                        E-mail 
                     </label>
                     <input class="is_required validate form-control" data-validate="isEmail" type="email" name="email" id="email" value="{$smarty.post.email}" />
                 </div>

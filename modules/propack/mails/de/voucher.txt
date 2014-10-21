@@ -1,0 +1,11 @@
+﻿Dear Customer,
+
+You submit a review and get voucher for discount via shop: {shop_name}
+
+{firsttext} {discountvalue}
+
+{secondtext} {voucher_code}
+
+{threetext} {date_until}
+
+The {shop_name} Team

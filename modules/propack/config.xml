@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>propack</name>
+            <displayName><![CDATA[Pro Pack (36 in 1)]]></displayName>
+            <version><![CDATA[1.3.1]]></version>
+            <description><![CDATA[Add Pro Pack (36 in 1)]]></description>
+            <author><![CDATA[storeprestamodules.com]]></author>
+            <tab><![CDATA[others]]></tab>
+	<confirmUninstall>Are you sure you want to remove it ? Be careful, all your configuration and your data will be lost</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

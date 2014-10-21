@@ -1,0 +1,277 @@
+.prfb-table-reviews{width:100%;border-bottom:1px solid #c4c4c4}
+.prfb-left{width:30%;text-align:center;padding-top:10px}
+
+.prfb-right{width:70%;}
+
+.prfb-left-bottom{ width:30% }
+.prfb-right-bottom{ width:70%;padding-left:10px;padding-bottom:5px }
+
+
+.prfb-right-bottom span{color:#666666}
+.prfb-right-bottom b.yes{color:#67983B}
+.prfb-right-bottom b.no{color:#C63300}
+
+.prfb-name{color:#0090FF;
+	  font-size:12px;
+	  font-weight:bold}
+.prfb-time{color: #90A4B9;
+    	  font-size: 11px;
+		  }
+.prfb-left .rating{margin:10px!important} 
+.prfb-right .h3{    color: #2F5997;
+    font-size: 14px;
+    margin:0px;
+	padding-left:10px;
+	font-weight:bold
+    }
+.prfb-right .rvTxt p{color:#333333;margin:10px 0!important;
+    			    padding:0;
+					font-size:11px
+					}
+		  
+.prfb-right-bottom .soc-share{float:left}
+.prfb-right-bottom .recommended{float:left;padding-top:6px;}
+.prfb-clear{clear:both}		 
+
+a.greenBtnBig{text-decoration:none}
+					
+.greenBtnBig  {
+    background: url("../i/btn_bg1.gif") repeat-x scroll 0 0 #4B9F00;
+    border-left: 1px solid #408700;
+    border-right: 1px solid #408700;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 0.8em;
+    margin:0 auto 15px;
+    position: relative;
+}
+
+.greenBtnBig {
+    text-align: center;
+    width: 150px;
+}
+
+.greenBtnBig b {
+    border-bottom: 1px solid #408700;
+    border-top: 1px solid #408700;
+    color: white;
+    display: block;
+    height: 14px;
+    padding: 4px 10px 0;
+    position: relative;
+    top: -1px;
+}
+
+a.greyBtnBig{text-decoration:none}
+
+.greyBtnBig  {
+    background: url("../i/btn_bg6.gif") repeat-x scroll 0 0 #3086CA;
+    border-left: 1px solid #0054A6;
+    border-right: 1px solid #0054A6;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 0.8em;
+    margin:0 auto 15px;
+    position: relative;
+}
+
+.greyBtnBig {
+    text-align: center;
+    width: 120px;
+}
+
+.greyBtnBig b {
+    border-bottom: 1px solid #0054A6;
+    border-top: 1px solid #0054A6;
+    color: white;
+    display: block;
+    height: 14px;
+    padding: 4px 10px 0;
+    position: relative;
+    top: -1px;
+}
+
+.button-bottom-add-review{margin-top:10px}
+
+
+.sortTools  {
+    background: none repeat scroll 0 0 #F3F3F3;
+    font-size: 85%;
+    height: 21px;
+    padding: 7px 0 8px;
+}
+
+.sortTools ul.actions {
+    float: left;
+}
+.sortTools ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.sortTools ul li.frst {
+    border-width: 0;
+}
+.sortTools ul li {
+    border-left: 1px solid #CECECE;
+    color: #ACACAC;
+    float: left;
+    margin: 0;
+    padding: 3px 10px 4px;
+}
+.sortTools ul li select, .sortTools ul li strong {
+    font-size: 12px;
+    color:#333;
+}
+.sortTools ul li span {
+    font-size: 12px;
+}
+
+
+
+
+.compareTableNew {
+    position: relative;
+}
+
+.compareTableNew .info {
+    padding: 18px 15px 18px 10px;
+}
+.compareTableNew td {
+    background: url("../i/g_bg3.gif") repeat-x scroll 0 100% transparent;
+    border-bottom: 1px solid #E2E2E2;
+    vertical-align: top;
+}
+
+.compareTableNew .info p {
+    line-height: 1.35em;
+    font-size:12px
+}
+
+.compareTableNew .info h3{
+	color: #49AF17;
+    font-size: 14px;
+    padding-left:10px;
+    font-weight: bold;
+}
+
+.compareTableNew .info h3 a:hover{
+	color:green;
+}
+.compareTableNew .info h3 a{
+    color: #49AF17;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p.commentbody_center {
+    font-size: 12px;
+    padding: 3px 10px;
+    width: 98%;
+    word-wrap: break-word;
+	color:#333;
+}
+p.commentbody_center a{ 
+color:#2F5997;
+font-size:11px
+}
+span.foot_center  {
+    color: #595A5E;
+    float: right;
+    font-size: 11px;
+    font-style: italic;
+}
+
+span.foot_center a{color:#2580C7}
+
+.pages { color:#2580C7; /*height:15px; padding:0 0 10px 10px; font-size:100%; margin-top:20px; line-height:1.2em;*/  }
+.pages span, .pages b, .pages a { font-weight:bold; }
+.pages a{color:#2580c7}
+.pages span { color:#2580C7; padding:1px 8px 2px 0; }
+.pages span.nums { padding:0 10px 0 5px; }
+.pages span.nums b, .pages span.nums a { padding:1px 6px 3px 6px; background:#ececec; text-decoration:none; margin-right:4px; }
+.pages span.nums a:hover { background:#2580c7; color:#fff; }
+.pages span.nums b { background:#6ec31c; color:#fff; }
+
+
+.rItem {
+
+    border-bottom: 1px dashed #FFFFFF;
+    padding: 3px 10px;
+    width: 170px;
+    word-wrap: break-word;
+    margin-bottom:5px
+}
+.ratingBox{margin-bottom:5px}
+
+div.submit_testimonal  {
+    margin: 0 6px 5px;
+}
+
+
+#succes-review{display:none;
+	border: 1px solid #4DA400;
+    color: #4DA400;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+	margin-top:10px
+}
+
+.error_testimonials_form{background-color:#FFFCE7}
+
+.blog-post-item{margin-top:10px;border:1px solid #CCCCCC;padding:10px;overflow:hidden;font-size:12px}
+
+.blog-block-comments{margin-top:20px}
+
+
+
+
+.prfb-table-reviews{width:100%;}
+.prfb-left{width:30%;text-align:center;padding:10px 0}
+
+.prfb-right{width:70%;}
+
+.prfb-left-bottom{ width:30% }
+.prfb-right-bottom{ width:70%;padding-left:10px;padding-bottom:5px }
+
+
+.prfb-right-bottom span{color:#666666}
+.prfb-right-bottom b.yes{color:#67983B}
+.prfb-right-bottom b.no{color:#C63300}
+
+.prfb-name{color:#0090FF;
+	  font-size:12px;
+	  font-weight:bold}
+.prfb-time{color: #90A4B9;
+    	  font-size: 11px;
+		  }
+.prfb-left .rating{margin:10px!important} 
+.prfb-right .h3{    color: #2F5997;
+    font-size: 14px;
+    margin:0px;
+	padding-left:10px;
+	font-weight:bold
+    }
+.prfb-right .rvTxt p{color:#333333;margin:10px 0!important;
+    			    padding:0;
+					font-size:11px
+					}
+		  
+.prfb-right-bottom .soc-share{float:left}
+.prfb-right-bottom .recommended{float:left;padding-top:6px;}
+.prfb-clear{clear:both}	
+					
+.block-items-data td a{background:none!important;padding:5px}
+
+.share-buttons-item a{text-decoration:none!important}
+.share-buttons-item	{float:right}
+
+					
+.clear{clear:both}

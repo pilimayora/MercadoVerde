@@ -80,7 +80,7 @@
                     {/foreach}
                 {/if}
                 <p class="form-group">
-                    <label for="email">{l s='Email address'}</label>
+                    <label for="email">Email</label>
                     {if isset($customerThread.email)}
                         <input class="form-control grey" type="text" id="email" name="from" value="{$customerThread.email|escape:'html':'UTF-8'}" readonly="readonly" />
                     {else}

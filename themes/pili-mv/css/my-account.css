@@ -2,59 +2,52 @@
   margin-bottom: 30px; }
 #my-account ul.myaccount-link-list li {
   overflow: hidden;
-  padding-bottom: 10px; }
+  padding-bottom: 0px; }
   #my-account ul.myaccount-link-list li a {
     display: block;
     overflow: hidden;
-    font: 600 16px/20px "Open Sans", sans-serif;
+    font: normal 14px/20px "Avenir", sans-serif;
     color: #555454;
     text-shadow: 0px 1px white;
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
-    border: 1px solid;
-    border-color: #cacaca #b7b7b7 #9a9a9a #b7b7b7;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7f7f7), color-stop(100%, #ededed));
-    background-image: -webkit-linear-gradient(#f7f7f7, #ededed);
-    background-image: -moz-linear-gradient(#f7f7f7, #ededed);
-    background-image: -o-linear-gradient(#f7f7f7, #ededed);
-    background-image: linear-gradient(#f7f7f7, #ededed);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px; }
-    #my-account ul.myaccount-link-list li a i {
-      font-size: 25px;
-      color: #fd7e01;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 52px;
-      height: 100%;
-      padding: 10px 0 0 0;
-      text-align: center;
-      border: 1px solid white;
-      -moz-border-radius-topleft: 4px;
-      -webkit-border-top-left-radius: 4px;
-      border-top-left-radius: 4px;
-      -moz-border-radius-bottomleft: 4px;
-      -webkit-border-bottom-left-radius: 4px;
-      border-bottom-left-radius: 4px; }
+    border: none;    
+    background-color: #ffffff; }
     #my-account ul.myaccount-link-list li a span {
       display: block;
-      padding: 13px 15px 15px 17px;
+      padding: 20px 15px 20px 25px;
       overflow: hidden;
-      border: 1px solid;
-      margin-left: 52px;
-      border-color: white white white #c8c8c8;
-      -moz-border-radius-topright: 5px;
-      -webkit-border-top-right-radius: 5px;
-      border-top-right-radius: 5px;
-      -moz-border-radius-bottomright: 5px;
-      -webkit-border-bottom-right-radius: 5px;
-      border-bottom-right-radius: 5px; }
+      text-align: left; }
     #my-account ul.myaccount-link-list li a:hover {
       filter: none;
-      background: #e7e7e7;
-      border-color: #9e9e9e #c2c2c2 #c8c8c8 #c2c2c2; }
+      background-color: #5FDD9B; }
+
+#my-account ul.myaccount-link-list li.titulo-categoria-perfil a {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px; }
+#my-account ul.myaccount-link-list li.titulo-categoria-tienda a {
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px; }
+
+#my-account ul.myaccount-link-list li.titulo-categoria-tienda a,
+#my-account ul.myaccount-link-list li.titulo-categoria-perfil a {
+  text-shadow: none; }
+  #my-account ul.myaccount-link-list li.titulo-categoria-tienda a span,
+  #my-account ul.myaccount-link-list li.titulo-categoria-perfil a span {
+    color: #5FDD9B;
+    background-color: #464F4F;
+    padding-bottom: 15px; }
+    #my-account ul.myaccount-link-list li.titulo-categoria-tienda span:before,
+    #my-account ul.myaccount-link-list li.titulo-categoria-perfil span:before {
+      display: block;
+      float: left;
+      margin-right: 15px;
+      margin-top: -5px; }
+      #my-account ul.myaccount-link-list li.titulo-categoria-tienda span:before {
+        content: url("../img/my-account/crear_tienda.png"); }
+      #my-account ul.myaccount-link-list li.titulo-categoria-perfil span:before {
+        content: url("../img/my-account/mi_perfil.png"); } 
+        #my-account ul.myaccount-link-list li.titulo-categoria-tienda a:hover,
+        #my-account ul.myaccount-link-list li.titulo-categoria-perfil a:hover {
+          background-color: inherit; }

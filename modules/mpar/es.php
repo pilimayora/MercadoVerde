@@ -1,0 +1,1 @@
+<?phpglobal $_MODULE;$_MODULE = array();$_MODULE['<{mpar}prestashop>mpar_4f8a9b4c54fa747730cafd4d11c7c54a'] = 'MercadoPago Argentina Pro';$_MODULE['<{mpar}prestashop>mpar_6ae513ad421976d66d415f75081a605f'] = 'Plataforma de pago MercadoPago solo valido para Argentina';

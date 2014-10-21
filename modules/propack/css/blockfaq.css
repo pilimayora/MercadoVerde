@@ -1,0 +1,328 @@
+.title-h2 {
+border-bottom:1px solid #DFE4E8;
+color:#569900;
+margin-bottom:20px;
+margin-top:5px;
+padding-bottom:10px;
+padding-left:10px;
+background:none;
+font-size:18px;
+font-weight:normal;
+
+}
+
+.faqItem strong {
+    border-bottom: 1px dashed;
+    /*color: #5B499C;*/
+color:#2580C7;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main-text-box{padding: 0pt 15px 15px;}
+.main-text-box p {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 15px!important;
+    padding-bottom: 0px!important;
+	color:#666666
+}
+.main-text-box a{color:#489900;text-decoration:underline}
+.main-text-box a:hover{color:green}
+.border-block-faq{border:1px solid #E4E4E4; margin-top:10px}
+.clear{clear:both}
+
+.b-tab {
+	overflow:hidden;
+	padding:0 0 15px;
+	background:url(../i/bg-grey-dot.gif) 0 25px repeat-x;
+	margin-top:15px;
+	}
+.b-tab ul {
+	margin:0 0 0 22px;
+	}
+.b-tab li {
+	display:block;
+	font-weight:700;
+	float:left;
+	margin:0 3px 0 0;
+	border:1px solid #dad4d4;
+	}
+.b-tab li a {
+	text-decoration:none;
+	display:block;
+	padding:4px 10px 7px;
+	background:#ebeceb;
+	color:#666666;
+	}
+.b-tab li.current a,
+.b-tab li.current a:hover {
+	background:#fff;
+	cursor:auto;
+	color:#49AF17;
+	text-decoration:none;
+	}
+.b-tab li a:hover {
+	text-decoration:underline;
+	}
+.b-tab li.current {
+	border-bottom:1px solid #fff;
+	}
+	
+	
+
+.b-search-friends {
+    height: 20px;
+    /*overflow: hidden;*/
+    padding: 0 30px 30px 0;
+}
+
+.b-search-friends fieldset {
+    border: medium none;
+}
+
+.b-search-friends input {
+    border: 0 none;
+    float: right;
+    margin-left: 0;
+}
+
+.b-search-friends input.txt {
+	width:131px;
+	padding-left:5px;
+	padding-right:5px;
+	height:25px;
+	font-size:11px;
+	color:#666666;
+	border:1px solid #dad4d4;
+	border-right:none;
+	margin-left:0px;
+	}
+.b-search-friends fieldset{border:none}
+	
+.search-result-item{
+	float: left;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 5px;
+	
+}
+
+.clear-search-shoppers{
+	float: right;
+    margin: 7px 10px;
+    text-decoration: underline !important;
+	
+}
+
+
+
+
+.filter-by-cat-result-item{
+	/*color:#49AF17;*/
+	color:#666;
+	font-size:16px;
+	line-height: 1.3em;
+}
+
+.category-faq-color{color: #2580C7;}
+
+.answBox .answInf b{color: #428B01;}
+
+.answBox .answInf strong {
+    color: #CC5500;
+}
+
+
+.answBox .answInf span {
+    color: #CCCCCC;
+    padding: 0 5px;
+}
+
+.answBox .answInf {
+    padding: 0 0 7px;
+}
+
+.item-questions{border-bottom:1px solid #E4E4E4;margin-bottom:20px}
+.answBox-question{font-family: Tahoma,Arial,sans-serif; font-size: 14px; color: rgb(51, 51, 51);}
+.answBox-response{margin:20px 0 10px 30px}
+
+a.blueBtn{text-decoration:none}
+a:hover.blueBtn{text-decoration:none}
+
+.blueBtn  {
+    background: url("../i/btn_bg4.gif") repeat-x scroll 0 0 #2882C8;
+    border-left: 1px solid #2173B3;
+    border-right: 1px solid #2173B3;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 80%;
+    height: 17px;
+    line-height: 1em;
+    position: relative;
+    text-transform: uppercase;
+    width:210px;
+    text-align:center;
+    margin:10px auto 15px;
+}
+
+.blueBtn b  {
+    border-bottom: 1px solid #2173B3;
+    border-top: 1px solid #2173B3;
+    display: block;
+    height: 13px;
+    padding: 4px 10px 0;
+    position: relative;
+    top: -1px;
+    color:white;
+}
+
+
+
+#add-question-form {background-color:#FAFAFA;
+				  margin-top:20px;
+				  padding:5px;
+				  border:1px solid #C4C4C4;
+				  display:none
+				}
+
+#add-question-form .title-rev{
+    border-bottom: 1px solid #C4C4C4;
+    color: #2580C7;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#add-question-form table{
+	margin-top:10px;
+	width:100%;
+	           
+}
+
+#add-question-form .form-left{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 10px;
+    width: 30%;
+    line-height:2.5em
+}
+
+
+
+#add-question-form .form-right{width:70%}
+
+
+a.greenBtnBig{text-decoration:none}
+					
+.greenBtnBig  {
+    background: url("../i/btn_bg1.gif") repeat-x scroll 0 0 #4B9F00;
+    border-left: 1px solid #408700;
+    border-right: 1px solid #408700;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 0.8em;
+    margin:0 auto 15px;
+    position: relative;
+}
+
+.greenBtnBig {
+    text-align: center;
+    width: 220px;
+}
+
+.greenBtnBig b {
+    border-bottom: 1px solid #408700;
+    border-top: 1px solid #408700;
+    color: white;
+    display: block;
+    height: 14px;
+    padding: 4px 10px 0;
+    position: relative;
+    top: -1px;
+}
+
+a.greyBtnBig{text-decoration:none}
+
+.greyBtnBig  {
+    background: url("../i/btn_bg6.gif") repeat-x scroll 0 0 #3086CA;
+    border-left: 1px solid #0054A6;
+    border-right: 1px solid #0054A6;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 0.8em;
+    margin:0 auto 15px;
+    position: relative;
+}
+
+.greyBtnBig {
+    text-align: center;
+    width: 140px;
+}
+
+.greyBtnBig b {
+    border-bottom: 1px solid #0054A6;
+    border-top: 1px solid #0054A6;
+    color: white;
+    display: block;
+    height: 14px;
+    padding: 4px 10px 0;
+    position: relative;
+    top: -1px;
+}
+
+
+
+.no-registered{margin:10px 10px 10px 150px; font-weight:bold}
+
+#succes-question-faq{display:none;
+	border: 1px solid #4DA400;
+    color: #4DA400;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+	margin-top:10px
+}
+
+.error_testimonials_form{background-color:#FFFCE7}
+
+.inpCaptchaReview {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 2px;
+    min-height: 18px;
+}
+.float-left{float:left}
+.float-right{float:right}
+.clr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.margin-top-5{margin-top:5px}
+.clear{clear:both}	
+
+
+.float-left-table16{float:left}
+.sortTools16{padding: 7px 0 32px!important;}
+.padding16{height:20px!important}
+.padding16-faq{height:19px!important}
+
+.blockmanufacturer16-footer td{padding:0 2px!important}
+.blockmanufacturer16-footer h4{background:none repeat scroll 0 0 #383838;margin:0px!important}
+.blockmanufacturer16-footer li, .blockmanufacturer16 li{padding:7px 0}
+.blockmanufacturer16-footer li a, .blockmanufacturer16 li a{padding: 7px 11px 5px 22px;}
+.blockmanufacturer16-footer .search-blog{width:140px!important}
+
+.blockmanufacturer16 td{padding:0 2px!important}
+
+.b-tab-16{padding:4px 10px 2px!important}

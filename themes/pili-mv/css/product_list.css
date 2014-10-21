@@ -399,6 +399,7 @@ Product list(Index page) Styles
   @media (min-width: 1200px) {
     #index ul.product_list.tab-pane > li {
       padding-bottom: 85px;
+      max-height: 400px;
       margin-bottom: 0; } }
   #index ul.product_list.tab-pane > li .availability {
     display: none; }

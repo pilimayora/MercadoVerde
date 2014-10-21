@@ -1,0 +1,36 @@
+<script type="text/javascript">
+	function PageNav( page,id_product ){
+
+		$('#reviews-list').css('opacity',0.5);
+		$('#reviews-paging').css('opacity',0.5);
+		
+		
+		$.post('<?php echo $base_dir?>modules/propack/ajax.php', 
+					{action:'pagenavsite',
+					 page:page,
+					 id_product:id_product
+					 }, 
+		function (data) {
+			if (data.status == 'success') {
+
+				
+				$('#reviews-list').css('opacity',1);
+				$('#reviews-paging').css('opacity',1);
+				
+				$('#reviews-list').html('');
+				var content = $('#reviews-list').prepend(data.params.content);
+		    	$(content).hide();
+		    	$(content).fadeIn('slow');
+
+		    	$('#reviews-paging').html('');
+				var paging = $('#reviews-paging').prepend(data.params.paging);
+		    	$(paging).hide();
+		    	$(paging).fadeIn('slow');
+		    	
+								
+			} else {
+				alert(data.message);
+			}
+		}, 'json');
+	}
+</script>

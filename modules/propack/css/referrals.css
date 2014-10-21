@@ -1,0 +1,280 @@
+.header_user_info_ps16{float:right;padding:9px;border-left: 1px solid #515151;}
+
+.float-left{float:left}
+.clear{clear:both}
+.border-white{border-left:5px solid white}
+
+
+.twitter_share {
+    cursor:pointer;
+    margin:auto;
+   
+}
+
+.twitter_share:hover {
+    text-shadow:1px 1px 1px #1d2a43;
+    opacity:0.9;
+}
+
+.twitter_share_l {
+    vertical-align:top;
+    display:inline-block;
+    height:32px;
+    width:32px;
+    background:url('../img/btn-l.png') right top no-repeat;    
+}
+
+.twitter_share_bg {
+    position:relative;
+    vertical-align:top;
+    display:inline-block;
+    height:32px;
+    background:url('../img/btn-bg.png') right top repeat-x;    
+}
+
+.twitter_share_r {
+    vertical-align:top;
+    display:inline-block;
+    height:32px;
+    width:4px;
+    background:url('../img/btn-r.png') right top no-repeat;    
+}
+
+.twitter_share_bg span {
+    color:#FFF;
+    font-size:14px;
+    font-family:arial;
+    font-weight:bold;
+    padding:5px;
+    display:block;
+    text-shadow:1px 1px 0px #248FC2;
+    margin-top:3px;
+}
+
+.twitter_share_bg span a {
+    color:#FFF;
+    text-shadow:1px 1px 0px #248FC2;
+    text-decoration:none;
+}
+
+.twitter-count{    background: none repeat scroll 0 0 #55C1E8;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.9em;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #395996;
+    margin-left:5px;
+    width: auto;}
+
+
+.twitter-block{
+	background-color:#55C1E8!important;
+	border:10px solid #FFFFFF !important; 
+	color:white!important;
+	font-weight:bold!important;
+	font-size:25px!important;
+}
+
+
+.twitter-block h4{
+text-align:center;
+font-size:20px!important;
+font-weight:bold!important
+}
+.twitter-block .block-data-voucher{font-weight:bold;font-size:14px;/*color:#c4c4c4*/}
+.twitter-block .block-data-voucher b{color:white;font-size:16px}
+
+
+
+
+
+
+.facebook_share {
+    cursor:pointer;
+    margin:auto;
+   
+}
+
+.facebook_share:hover {
+    text-shadow:1px 1px 1px #1d2a43;
+    opacity:0.9;
+}
+
+.facebook_share_l {
+    vertical-align:top;
+    display:inline-block;
+    height:32px;
+    width:32px;
+    background:url('../img/f-l.png') right top no-repeat;    
+}
+
+.facebook_share_bg {
+    position:relative;
+    vertical-align:top;
+    display:inline-block;
+    height:32px;
+    background:url('../img/f-bg.png') right top repeat-x;    
+}
+
+.facebook_share_r {
+    vertical-align:top;
+    display:inline-block;
+    height:32px;
+    width:4px;
+    background:url('../img/f-r.png') right top no-repeat;    
+}
+
+.facebook_share_bg span {
+    color:#FFF;
+    font-size:14px;
+    font-family:arial;
+    font-weight:bold;
+    padding:5px;
+    display:block;
+    text-shadow:1px 1px 0px #248FC2;
+    margin-top:3px;
+}
+
+.facebook_share_bg span a {
+    color:#FFF;
+    text-shadow:1px 1px 0px #248FC2;
+    text-decoration:none;
+}
+
+
+.facebook-count{    background: none repeat scroll 0 0 #3F61A1;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.9em;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #395996;
+    margin-left:5px;
+    width: auto;}
+
+
+.facebook-block{
+	background-color:#395996!important;
+	border:10px solid #FFFFFF !important; 
+	color:white!important;
+	font-weight:bold!important;
+	font-size:25px!important;
+}
+
+
+.facebook-block h4{
+text-align:center;
+font-size:20px!important;
+font-weight:bold!important
+}
+.facebook-block .block-data-voucher{font-weight:bold;font-size:14px;/*color:#c4c4c4*/}
+.facebook-block .block-data-voucher b{color:white;font-size:16px}
+
+
+
+.google_b .leftside {padding:5px; background:#e88d79!important;vertical-align:middle;}
+.google_b .rightside {line-height:20px; text-align:center; color:#FFF; background: #d95232!important;
+width:auto; line-height:1em;vertical-align: middle;
+font-size:16px; font-weight:bold; text-shadow:1px 1px 0px #b43723; padding-left:5px; padding-right:5px;}
+
+.google-count{       background: none repeat scroll 0 0 #D95232;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 4.7em;
+    text-align: center;
+    text-shadow: 1px 1px 0 #B43723;
+    width: auto;
+}
+
+.google-block{
+	background-color:#d95232!important;
+	border:10px solid #FFFFFF !important; 
+	color:white!important;
+	font-weight:bold!important;
+	font-size:25px!important;
+}
+.google-block h4{
+font-size:20px!important;
+font-weight:bold!important
+}
+.google-block .block-data-voucher{font-weight:bold;font-size:14px;/*color:#c4c4c4*/}
+.google-block .block-data-voucher b{color:white;font-size:16px}
+
+
+
+
+
+.l_top .leftside {padding:5px; background:#BBDDEE;vertical-align:middle;}
+.l_top .rightside {line-height:20px; text-align:center; color:#FFF; background: #71A8CE;
+width:auto; line-height:1em;vertical-align: middle;
+font-size:16px; font-weight:bold; text-shadow:1px 1px 0px #2676AE; padding-left:5px; padding-right:5px;}
+
+.linkedin-count{
+	line-height:20px; text-align:center; color:#FFF; background: #71A8CE;
+width:auto; line-height:4.7em;
+font-size:16px; font-weight:bold; text-shadow:1px 1px 0px #2676AE;
+}
+
+
+
+.linkedin-block{
+	background-color:#71A8CE!important;
+	border:10px solid #FFFFFF !important; 
+	color:white!important;
+	font-weight:bold!important;
+	font-size:25px!important;
+}
+.linkedin-block h4{
+font-size:20px!important;
+font-weight:bold!important
+}
+.linkedin-block .block-data-voucher{font-weight:bold;font-size:14px;/*color:#c4c4c4*/}
+.linkedin-block .block-data-voucher b{color:white;font-size:16px}
+
+
+
+
+
+@CHARSET "utf-8";
+
+div#fb-con-wrapper {
+	width: 500px;
+	padding: 20px 25px;
+	position: fixed;
+	bottom: 50%;
+	left: 50%;
+	margin-left: -250px;
+	z-index: 9999;
+	background-color: #EEE;
+	color: #444;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	display: none;
+	box-shadow: 0 0 27px 0 #111;
+	text-align: center;
+	line-height: 1em;
+}
+
+div#fb-con {
+	filter: alpha(opacity=70);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";	
+	opacity: 0.7;
+	background-color: #444;	
+	width: 100%;
+	height: 100%;	
+	cursor: pointer;
+	z-index: 9998;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left:0;
+	display: none;	
+}
+

@@ -1,0 +1,13 @@
+** Bericht van {shop_name} **
+
+Geachte klant,
+
+Bedankt voor het plaatsen van een bestelling (nr.{orderid}) in onze webshop.
+
+Om ons te helpen het aanbod continue te verbeteren en anderen te helpen bij het maken van hun aankoopbeslissing, nodigen wij u uit een productbeoordeling af te geven voor het door u aangeschafte product zodra u het ontvangen hebt. Klik hiervoor op de link hieronder.
+
+{products_text}
+
+Nogmaals dank !
+
+-Het {shop_name} Team

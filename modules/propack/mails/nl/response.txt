@@ -1,0 +1,15 @@
+Hallo {name},
+
+Antwoord voor uw vraag in webshop {shop_name}
+
+Berichtdetails:
+
+Vraag: {question}
+
+Antwoord: {response}
+
+Product {name_product} - {link_product}
+
+
+
+{shop_url}

@@ -1,0 +1,13 @@
+** Message from online shop {shop_name} **
+
+Dear Customer,
+
+Thank you for placing an order (n°{orderid}) on our shop.
+
+In order to help us constantly improve our offer, and to help other customers in their purchase decision process, we invite you to rate the products you have purchased on our shop once you have received them. Simply follow the link below each product below.
+
+{products_text}
+
+Thanks again !
+
+-The {shop_name} Team

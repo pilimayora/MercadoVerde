@@ -1,0 +1,25 @@
+.googlesnippetsblock{
+border-radius: 5px 5px 5px 5px;
+border:1px solid #c1c1c1;
+background-color:#E5E5E5;
+margin-top:10px;
+margin-bottom:10px;
+text-align:left;
+color:#666666;
+overflow: hidden;	
+}
+.googlesnippetsblock-title{
+padding:5px;text-align:center	
+}
+.googlesnippetsblock-img{
+width:auto;height:50px	
+}
+
+table.snippets-table-block{margin:5px}
+table.snippets-table-block td{padding:5px}
+.snippets-clear {clear:both}
+.snippets-img-star {
+    float: left;
+    height: 22px;
+    width: 15px;
+}

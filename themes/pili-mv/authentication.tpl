@@ -57,7 +57,7 @@
 					<p>Ingresá tu dirección de e-mail para empezar a cambiar tus hábitos de consumo</p>
 					<div class="alert alert-danger" id="create_account_error" style="display:none"></div>
 					<div class="form-group">
-						<label for="email_create">{l s='Email address'}</label>
+						<label for="email_create">Email</label>
 						<input type="text" class="is_required validate account_input form-control" data-validate="isEmail" id="email_create" name="email_create" value="{if isset($smarty.post.email_create)}{$smarty.post.email_create|stripslashes}{/if}" />
 					</div>
 					<div class="submit">
@@ -77,7 +77,7 @@
 				<h3 class="page-subheading">{l s='Already registered?'}</h3>
 				<div class="form_content clearfix">
 					<div class="form-group">
-						<label for="email">{l s='Email address'}</label>
+						<label for="email">Email</label>
 						<input class="is_required validate account_input form-control" data-validate="isEmail" type="text" id="email" name="email" value="{if isset($smarty.post.email)}{$smarty.post.email|stripslashes}{/if}" />
 					</div>
 					<div class="form-group">
@@ -104,7 +104,7 @@
 					<h3 class="page-heading bottom-indent">{l s='Instant checkout'}</h3>
 					<!-- Account -->
 					<div class="required form-group">
-						<label for="guest_email">{l s='Email address'} <sup>*</sup></label>
+						<label for="guest_email">{l s='Email'} <sup>*</sup></label>
 						<input type="text" class="is_required validate form-control" data-validate="isEmail" id="guest_email" name="guest_email" value="{if isset($smarty.post.guest_email)}{$smarty.post.guest_email}{/if}" />
 					</div>
 					<div class="cleafix gender-line">
