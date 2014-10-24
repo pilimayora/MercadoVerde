@@ -51,20 +51,9 @@
                     <li><a href="{$link->getPageLink('discount', true)|escape:'html':'UTF-8'}" title="{l s='Vouchers'}"><span>{l s='My vouchers'}</span></a></li>
                 {/if}
                 {$HOOK_CUSTOMER_ACCOUNT}
-            {/if}
-            <li class="titulo-categoria-tienda"><a href="" title="{l s='Crear Tienda'}"><span>Crear Tienda</span></a></li>
+            {/if}            
         </ul>
 	</div>
-<!-- {if $voucherAllowed || isset($HOOK_CUSTOMER_ACCOUNT) && $HOOK_CUSTOMER_ACCOUNT !=''}
-	<div class="col-xs-12 col-sm-6 col-lg-4">
-        <ul class="myaccount-link-list">
-            {if $voucherAllowed}
-                <li><a href="{$link->getPageLink('discount', true)|escape:'html':'UTF-8'}" title="{l s='Vouchers'}"><span>{l s='My vouchers'}</span></a></li>
-            {/if}
-            {$HOOK_CUSTOMER_ACCOUNT}
-        </ul>
-    </div>
-{/if} -->
 </div>
 <ul class="footer_links clearfix">
 <li><a class="btn btn-default button button-small" href="{$base_dir}" title="{l s='Home'}"><span><i class="icon-chevron-left"></i> {l s='Home'}</span></a></li>
