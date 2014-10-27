@@ -31,7 +31,7 @@
 			<ul>
 				{foreach from=$rss_links item='rss_link'}
 					<li>
-						<span class="rss_title"><a href="{$rss_link.url}">
+						<span class="rss_title"><a href="{$rss_link.url}" target="_blank">
 							{$rss_link.title}
 						</a></span>
 						<span class="rss_date">
