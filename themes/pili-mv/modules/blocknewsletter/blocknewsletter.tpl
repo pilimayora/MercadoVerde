@@ -23,7 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 <!-- Block Newsletter module-->
-<div id="newsletter_block_left" class="block">
+<div id="newsletter_block_left" class="block col-md-12">
 	<h4>{l s='Subscribir a Newsletter' mod='blocknewsletter'}</h4>
 	<div class="block_content">
 		<form action="{$link->getPageLink('index')|escape:'html':'UTF-8'}" method="post">

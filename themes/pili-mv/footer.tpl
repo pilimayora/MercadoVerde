@@ -34,7 +34,11 @@
 				<!-- Footer -->
 				<div class="footer-container">
 					<footer id="footer"  class="container">
-						<div class="row">{$HOOK_FOOTER}</div>
+						<div class="row">
+						<div class="col-md-8 left-footer">
+						{$HOOK_FOOTER}
+						</div><!-- End Footer Right Side -->
+						</div> <!-- End row footer -->
 					</footer>
 				</div><!-- #footer -->
 			{/if}

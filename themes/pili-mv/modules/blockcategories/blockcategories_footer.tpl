@@ -24,7 +24,7 @@
 *}
 
 <!-- Block categories module -->
-<section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
+<section class="blockcategories_footer footer-block col-xs-12 col-sm-3">
 	<h4>{l s='Categorías' mod='blockcategories'}</h4>
 	<div class="category_footer toggle-footer">
 		<div class="list">
