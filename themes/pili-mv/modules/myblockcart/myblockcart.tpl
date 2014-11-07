@@ -23,6 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 <!-- No mostrar carrito en el header cuando el usuario no esta loggeado -->
+HOLA PILI ESTOY AGREGANDO ALGO
 {if $logged}
 	<!-- MODULE Block cart -->
 	{if isset($blockcart_top) && $blockcart_top}
