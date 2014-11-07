@@ -24,7 +24,12 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<section id="social_block">
+</div><!-- End Col 8 - Left Side Footer -->
+
+<div class="col-md-4 right-footer"> <!-- Begin Footer Right Side -->
+
+<section id="social_block" class="col-md-12">
+<h4>{l s='Seguinos:' mod='blocksocial'}</h4>
 	<ul>
 		{if $twitter_url != ''}
 			<li class="twitter">
@@ -73,6 +78,6 @@
         	</li>
         {/if} -->
 	</ul>
-    <h4>{l s='Seguinos:' mod='blocksocial'}</h4>
+    
 </section>
-<div class="clearfix"></div>
+<!-- <div class="clearfix"></div> -->

@@ -21,7 +21,7 @@
 /* Block newsletter footer */
 #footer #newsletter_block_left {
   overflow: hidden;
-  width: 60%;
+  /*width: 60%;*/
   float: left;
   padding: 13px 15px 7px 15px;
   margin-bottom: 0; }
@@ -89,3 +89,10 @@
         clear: none; } }
   #footer #newsletter_block_left .newsletter-input {
     max-width: 300px !important; }
+
+
+@media (max-width: 678px) {
+  #footer #newsletter_block_left h4 {
+    float: none;
+  }
+}
