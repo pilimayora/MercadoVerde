@@ -1693,6 +1693,28 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
     background-color: white;
     border-color: #cccccc; }
 
+.btn_authentication {
+  color: #464F4F;
+  background-color: #5FDD9B;
+  background-image: none;
+  border: none;  
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
+  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
+  box-shadow: 0 4px 5px -2px #aaaaaa;
+  font-size: 16px;
+  line-height: 26px;
+  width: 30%;
+  padding: 2% 3%;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 30px; }
+  .btn_authentication:hover {
+    background-color: #9FFFC8;
+  }
+
 .btn-primary {
   color: white;
   background-color: #428bca;
@@ -4222,7 +4244,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "\f014"; }
 
 .icon-home:before {
-  content: "\f015"; }
+  content: url('../img/logos/favicon.png'); }
 
 .icon-file-alt:before {
   content: "\f016"; }
@@ -5444,7 +5466,6 @@ label {
 
 input.button_mini,
 input.button_small,
-input.button,
 input.button_large,
 input.button_mini_disabled,
 input.button_small_disabled,
@@ -6072,10 +6093,13 @@ table.table_block td {
 
 .box {
   background: #fbfbfb;
-  border: 1px solid #d6d4d4;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
+  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
+  box-shadow: 0 3px 10px 0px #aaaaaa;
   padding: 14px 18px 13px;
-  margin: 0 0 30px 0;
-  line-height: 23px; }
+  margin: 0; }
   .box p {
     margin-bottom: 0; }
   .box.box-small {
@@ -6271,9 +6295,7 @@ h5.home_tab {
   font: 600 18px/22px "Avenir", sans-serif;
   color: #555454;
   text-transform: uppercase;
-  padding: 0px 0px 17px 0px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #d6d4d4;
+  padding: 0px 0px 10px 0px;
   overflow: hidden; }
   .page-heading span.heading-counter {
     font: bold 13px/22px Arial, Helvetica, sans-serif;
@@ -6841,7 +6863,7 @@ div.star a:hover {
       display: inline-block;
       height: 25px; }
       .breadcrumb a.home i {
-        vertical-align: -1px; }
+        vertical-align: -5px; }
       .breadcrumb a.home:before {
         border: none; }
     .breadcrumb a:after {

@@ -84,36 +84,3 @@ label.newsletter {
   margin-top: 1%;
   clear: both;
 }
-
-form.box {
-  margin: 0;
-  border: none;
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
-  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
-  box-shadow: 0 3px 10px 0px #aaaaaa;
-}
-
-.btn_authentication {
-  color: #464F4F;
-  background-color: #5FDD9B;
-  background-image: none;
-  border: none;
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 10px 0px #aaaaaa;
-  -moz-box-shadow: 0 3px 10px 0px #aaaaaa;
-  box-shadow: 0 4px 5px -2px #aaaaaa;
-  font-size: 16px;
-  line-height: 26px;
-  width: 30%;
-  padding: 2% 3%;
-  font-weight: 600;
-  margin-top: 30px;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 30px;
-}
-
-.btn_authentication:hover {
-  background-color: #9FFFC8;
-}

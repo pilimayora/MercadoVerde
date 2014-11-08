@@ -74,7 +74,7 @@
 		</div>
 		<div class="authentication_box">
 			<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="login_form" class="box">
-				<h3 class="page-subheading">{l s='Already registered?'}</h3>
+				<h3 class="page-subheading">¿Ya está inscripto?</h3>
 				<div class="form_content clearfix">
 					<div class="form-group">
 						<label for="email">Email</label>
