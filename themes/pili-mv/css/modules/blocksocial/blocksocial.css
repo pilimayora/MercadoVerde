@@ -1,0 +1,9 @@
+@media (max-width: 996px) {
+	.footer-container #footer #social_block {
+		text-align: left;
+		padding-left: 15px;
+	}
+	.right-footer::before {
+		border: 0;
+	}
+}

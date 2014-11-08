@@ -391,6 +391,29 @@ ul.product_list.list > li .right-block .right-block-content .functional-buttons 
   ul.product_list.list > li {
     text-align: center; } }
 
+
+
+
+@media (min-width: 442px) {
+  ul.product_list li:nth-child(3n+1) {
+    clear: none;
+  }
+  ul.product_list li:nth-child(2n+1) {
+    clear: left;
+  }
+
+}
+
+@media (min-width: 996px) {
+  ul.product_list li:nth-child(3n+1) {
+    clear: left;
+  }
+  ul.product_list li:nth-child(2n+1) {
+    clear: none;
+  }
+}
+
+
 /*******************************************************
 Product list(Index page) Styles 
 ********************************************************/

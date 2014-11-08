@@ -87,3 +87,7 @@
       font-family: "FontAwesome";
       line-height: 29px;
       padding-right: 8px; }
+
+    .col-sm-3 {
+      border: 0;
+    }

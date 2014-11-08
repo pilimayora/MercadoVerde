@@ -29,25 +29,53 @@
 
 ul.descripcion-sellos {
 	width: 100%;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	text-align: center;
 }
 
 ul.descripcion-sellos li {
-	display: block;
-	width: 9.5%;
-	margin: 1% 1.5% 11% 1.5%;	
+	display: inline-block;
+	width: 100%;
 	height: 220px;
-	float: left;
+	margin: 1% 1.2% 13% 1.2%;
+	/* float: left; */
 	border-radius: 6px;
 	text-align: center;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
-  	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
-  	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px; 
-  	position: relative;
-  	background-color: #f1f2f2;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+	position: relative;
+	background-color: #f1f2f2;
+	max-width: 111px;
 }
+
+@media (max-width: 992px) {
+	ul.descripcion-sellos li:nth-child(n+7) {
+		margin-bottom: 17%;
+	}
+}
+
+@media (max-width: 767px) {
+	ul.descripcion-sellos li:nth-child(n+7) {
+		margin-bottom: 20%;
+	}
+}
+
+@media (max-width: 640px) {
+	ul.descripcion-sellos li:nth-child(n+7) {
+		margin-bottom: 25%;
+	}
+}
+@media (max-width: 529px) {
+	ul.descripcion-sellos li:nth-child(n+7) {
+		margin-bottom: 25%;
+	}
+}
+
+
 	ul.descripcion-sellos li:hover {
 		background-color: #ffffff;
+		z-index: 99;
 	}
 	ul.descripcion-sellos li:hover div {
 		width: 120%;
