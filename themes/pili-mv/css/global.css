@@ -18,6 +18,13 @@ time, mark, audio, video {
   font: inherit;
   font-size: 100%;
   vertical-align: baseline; }
+  .cextras {
+   position: absolute;
+   color:#FFF;
+   border-radius: 5px;
+   list-style-type: none;
+   margin: auto auto;
+   width:80%;
 
 html {
   line-height: 1; }
